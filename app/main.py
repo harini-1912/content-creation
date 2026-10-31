@@ -17,7 +17,7 @@ import threading
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, File, UploadFile, Form, BackgroundTasks, HTTPException, status
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 
 from app.core.config import load_settings, GenerationModeEnum
 from app.core.media_renderer import get_ffmpeg_executable
@@ -734,3 +734,24 @@ def list_recent_jobs() -> List[Dict[str, Any]]:
         reverse=True,
     )
     return sorted_jobs
+
+
+@app.get("/api/download/calendar")
+def download_calendar() -> FileResponse:
+    """Download the official IncuBrix master calendar CSV (40 ready-to-publish assets)."""
+    root_dir = Path(__file__).resolve().parent.parent
+    calendar_path = root_dir / "calendar.csv"
+    if not calendar_path.exists():
+        calendar_path = root_dir / "output" / "assessment_expansion_phase4" / "calendar.csv"
+
+    if calendar_path.exists() and calendar_path.is_file():
+        return FileResponse(
+            path=str(calendar_path),
+            filename="calendar.csv",
+            media_type="text/csv",
+        )
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail="calendar.csv was not found on the server.",
+    )
+

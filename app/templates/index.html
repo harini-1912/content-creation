@@ -1400,6 +1400,14 @@
         <span class="status-dot" id="config-status-dot"></span>
         <span id="config-status-text">AI Content Engine Ready</span>
       </div>
+      <a href="/api/download/calendar" class="btn-secondary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;" download="calendar.csv" title="Download Master Calendar CSV">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Master Calendar (CSV)
+      </a>
       <button class="btn-secondary" id="open-history-btn">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="12" cy="12" r="10"></circle>
@@ -1944,6 +1952,98 @@
         if (s4d) s4d.textContent = 'Transcription & platform drafts';
       }
     }
+
+
+
+    // =========================================================================
+    // Export JSON & Markdown Download Handlers
+    // =========================================================================
+    exportJsonBtn.addEventListener('click', () => {
+      if (!currentJobResult) {
+        alert('No generated content available to export. Please run a job first.');
+        return;
+      }
+      try {
+        const jobId = currentJobResult.job_id || 'incubrix_repurposed';
+        const jsonContent = JSON.stringify(currentJobResult, null, 2);
+        const blob = new Blob([jsonContent], { type: 'application/json;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'incubrix_drafts_' + jobId + '.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      } catch (err) {
+        console.error('Export JSON error:', err);
+        alert('Failed to export JSON: ' + err.message);
+      }
+    });
+
+    exportMarkdownBtn.addEventListener('click', () => {
+      if (!currentJobResult) {
+        alert('No generated content available to export. Please run a job first.');
+        return;
+      }
+      try {
+        const jobId = currentJobResult.job_id || 'incubrix_repurposed';
+        const moments = currentJobResult.moments || [];
+        const sourceDoc = currentJobResult.source_document_name || (currentJobResult.source_video_path ? currentJobResult.source_video_path.split(/[\\/]/).pop() : 'source_media');
+
+        let md = '# IncuBrix Repurposed Content Suite\n\n';
+        md += '* **Job ID:** `' + jobId + '`\n';
+        md += '* **Source Asset:** `' + sourceDoc + '`\n';
+        md += '* **Generated At:** ' + (currentJobResult.generated_at || new Date().toISOString()) + '\n';
+        md += '* **AI Model:** ' + (currentJobResult.model_used || 'gemini-3.5-flash') + '\n';
+        md += '* **Total Derived Drafts:** ' + moments.length + '\n\n';
+        md += '---\n\n';
+
+        moments.forEach((m, idx) => {
+          const plat = m.intended_platform || 'Platform';
+          const fmt = m.suggested_format || 'Format';
+          const title = m.title || ('Draft #' + (idx + 1));
+          const hook = m.hook || '';
+          const copy = m.caption_or_script || '';
+          const cta = m.call_to_action || '';
+          const utm = m.tracking_url || m.destination_url || '';
+          const status = m.human_review_status || 'PENDING_HUMAN_REVIEW';
+          const metric = m.target_metric || 'Engagement Rate';
+          const tags = Array.isArray(m.hashtags) ? m.hashtags.join(' ') : (m.hashtags || '');
+
+          md += '## Draft #' + (idx + 1) + ': [' + plat.toUpperCase() + '] ' + title + '\n\n';
+          md += '* **Platform:** ' + plat + '\n';
+          md += '* **Format:** ' + fmt + '\n';
+          md += '* **Review Status:** `' + status + '`\n';
+          md += '* **Target Metric:** ' + metric + '\n';
+          if (utm) {
+            md += '* **Tracking Link (UTM):** [' + utm + '](' + utm + ')\n';
+          }
+          md += '\n### Hook\n> ' + hook + '\n\n';
+          md += '### Primary Copy / Script\n' + copy + '\n\n';
+          if (tags) {
+            md += '### Hashtags\n`' + tags + '`\n\n';
+          }
+          if (cta) {
+            md += '### Call To Action\n**' + cta + '**\n\n';
+          }
+          md += '---\n\n';
+        });
+
+        const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'incubrix_drafts_' + jobId + '.md';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      } catch (err) {
+        console.error('Export Markdown error:', err);
+        alert('Failed to export Markdown: ' + err.message);
+      }
+    });
 
     // Config Check on Load
     async function checkServerConfig() {
@@ -2510,7 +2610,7 @@
       const s = Math.round(duration % 60);
       resDuration.textContent = `${m}m ${s}s`;
 
-      const words = result.full_transcript ? result.full_transcript.trim().split(/\s+/).length : 0;
+      const words = result.full_transcript ? result.full_transcript.trim().split(/s+/).length : 0;
       resWords.textContent = words.toLocaleString();
 
       const moments = result.moments || [];
