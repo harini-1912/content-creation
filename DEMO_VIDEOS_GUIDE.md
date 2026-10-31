@@ -115,34 +115,37 @@ Have two terminal windows open side by side:
 
 ---
 
-### Step 3: Failure & Graceful Recovery Demonstration (5:00 – 7:15)
+### Step 3: Failure & Graceful Recovery Demonstration (4:15 – 5:15)
 
 #### What to Do:
 1. In the browser, click **New Generation**.
-2. Select **Long-Form Video** mode.
-3. Try to upload an invalid file (e.g. an empty text file or a `.zip` archive).
-4. Show the frontend validation banner:
-   > *"Invalid file format. Only .mp4 video files are accepted for video upload."*
-5. Now test backend defensive error capture:
-   - Switch to **Blog / Article** mode.
-   - Upload an empty 0-byte file (e.g. create a quick 0-byte file `test_empty.txt`).
-   - Click Generate.
-   - Show the error card:
-   > *"Processing Failed: File is empty (0 bytes)."*
-6. **Show Recovery:**
+2. **Client Validation Check:**
+   - Under Target Platforms, click **Clear All** (0 platforms selected).
+   - Click **Generate Platform Content**.
+   - Show the alert banner: *"Please select at least one platform and format."*
+   - Click **Select All** to show the banner clears immediately.
+3. **Backend Error Capture & Error Card:**
+   - In **Blog / Article** mode, select `blank_test.txt` (text file with only whitespace).
+   - Click **Generate Platform Content**.
+   - The stepper runs; Stage 2 structure extraction catches the empty content.
+   - Show the red error card:
+     > *"Processing Failed: Text file 'blank_test.txt' is empty or contains only whitespace."*
+4. **Show Clean Recovery:**
    - Click **Dismiss & Return**.
-   - Notice the application does NOT crash, the server remains healthy and active, and the user is cleanly returned to the upload zone ready to proceed.
-   - Upload a valid file to show 100% operational continuity.
+   - The error card clears, the stepper resets, and the upload panel returns cleanly without restarting the server or refreshing the page.
+   - Upload a valid file (`test_doc.md`), click generate, and derive all 10 platform drafts to prove 100% operational continuity.
 
 #### What to Say:
-> *"Now for Part 3: error injection and graceful failure recovery.
-> A resilient content engine must handle corrupted or malicious inputs without crashing.
-> First, if a user attempts to upload a non-MP4 file to the video dropzone, our frontend immediately traps the error and warns the user.
-> Second, to test deep backend validation, I upload an empty zero-byte text file. 
-> The backend worker catches the empty stream, raises a clean HTTP 400 validation exception, and logs the issue with full secret redaction.
-> Notice the UI does not crash or freeze: an error card appears explaining that the file was empty. 
-> When I click 'Dismiss & Return', the application recovers immediately, resetting the stepper and allowing the user to select a valid file without restarting the server.
-> This concludes our technical demonstration."*
+> *"Now for Requirement 3: failure injection and graceful error recovery.
+> A production-grade engine must handle invalid or corrupted data without crashing.
+> First, if a user accidentally deselects all platforms and clicks generate, our client validation catches the state immediately and displays an advisory banner requiring at least one target channel.
+> Second, to test deep backend defensive exception handling, I upload blank_test.txt—a text file containing only whitespace.
+> When submitted, Stage 1 accepts the file, but Stage 2 structure extraction inspects the content, detects zero readable text or headings, and raises a clean validation exception.
+> Notice the UI does not crash, freeze, or dump raw server traces: a clear error card informs the user that the file is empty.
+> Now I click 'Dismiss & Return'.
+> Notice how cleanly the system recovers: the error state clears, the stepper resets, and the engine is immediately ready for another job without restarting the server or refreshing the browser.
+> I select our valid document, click generate, and the engine derives all 10 platform drafts with 100% operational continuity.
+> This confirms full system stability, error recovery, and reproducible execution."*
 
 ---
 
