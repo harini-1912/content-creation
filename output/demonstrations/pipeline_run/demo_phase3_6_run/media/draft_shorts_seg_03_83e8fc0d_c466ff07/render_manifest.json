@@ -1,0 +1,28 @@
+{
+  "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+  "platform": "youtube_shorts",
+  "content_format": "short_video",
+  "media_provenance": "LOCALLY_GENERATED_KINETIC_TEXT",
+  "renderer_engine": "IncuBrix Media Renderer v1.0 (Pillow + FFmpeg)",
+  "media_rights_status": "NOT_APPLICABLE",
+  "permission_evidence_reference": null,
+  "dimensions": "1080x1920",
+  "duration_seconds": 26.5,
+  "estimated_duration_seconds": 23.5,
+  "duration_probe_method": "ffmpeg_inspection",
+  "scene_count": 3,
+  "source_document": "repurposing_operations_guide.md",
+  "source_segment_id": "seg_03_83e8fc0d",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "is_silent": true,
+  "audio_notice": "Silent preview: procedural text cards with no voiceover synthesized (offline mode).",
+  "output_files": [
+    "preview.mp4"
+  ],
+  "file_hashes": {
+    "preview.mp4": "3560c7084ebb0b6a88d564cd6f8b02b30ec7196496646706eb3ffc2175de679a"
+  },
+  "integrity_algorithm": "SHA-256",
+  "rendered_at": "2026-10-30T18:31:04.038086+00:00"
+}

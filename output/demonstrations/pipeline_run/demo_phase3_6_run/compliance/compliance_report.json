@@ -1,0 +1,759 @@
+{
+  "report_title": "IncuBrix Brand Compliance, Rights Safety, and Platform Readiness Report",
+  "schema_version": "1.0",
+  "run_id": "demo_phase3_6_run",
+  "evaluated_at": "2026-10-30T18:31:04.916228+00:00",
+  "total_assets_evaluated": 12,
+  "brand_compliance_status_counts": {
+    "PASS": 12,
+    "PASS_WITH_WARNINGS": 0,
+    "FAIL": 0,
+    "NOT_ASSESSED": 0
+  },
+  "destination_url_status_counts": {
+    "APPROVED": 12,
+    "UNAPPROVED": 0,
+    "PENDING_DESTINATION_URL": 0,
+    "INVALID": 0
+  },
+  "media_rights_status_counts": {
+    "VERIFIED": 0,
+    "PENDING_VERIFICATION": 0,
+    "RESTRICTED": 0,
+    "NOT_APPLICABLE": 12
+  },
+  "platform_readiness_status_counts": {
+    "PASS": 12,
+    "PASS_WITH_WARNINGS": 0,
+    "FAIL": 0
+  },
+  "unsupported_claim_count": 0,
+  "human_review_required_count": 12,
+  "ready_to_publish_count": 0,
+  "publishing_safety_enforced": true,
+  "disclaimer": "Automated compliance evaluation assesses brand voice heuristics, claim categories, destination allowlists, media rights records, and structural platform formatting. A PASS evaluation does NOT constitute legal clearance, fact verification, or platform approval. All assets strictly require human editorial review prior to publication.",
+  "failure_reasons": [],
+  "warning_reasons": [],
+  "asset_evaluations": [
+    {
+      "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 20.0 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'text_post' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: linkedin",
+        "Format Check Passed: Content format declared: text_post",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: LinkedIn character length within limit (643/3000)",
+        "Format Check Passed: LinkedIn opening hook meets minimum depth",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.644553+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 16.2 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 1 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: youtube_shorts",
+        "Format Check Passed: Content format declared: short_video",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+        "Format Check Passed: Shorts spoken word count acceptable (65/140 words)",
+        "Format Check Passed: Video scene cues structured (3 scenes)",
+        "Format Check Passed: Estimated duration within vertical limit (34.3s <= 60.0s)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_01_89a9360b)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: preview.mp4 exists on disk (444067 bytes)",
+        "Format Check Passed: Actual probed MP4 duration: 31.29s",
+        "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+        "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+        "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.715720+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 21.7 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'thread' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: twitter",
+        "Format Check Passed: Content format declared: thread",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (2 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format compatible with X (Thread or Post)",
+        "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.716136+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 17.0 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 6 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: instagram",
+        "Format Check Passed: Content format declared: carousel",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Carousel slide count acceptable (5 slides)",
+        "Format Check Passed: All carousel slides possess headline and body copy",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_01_89a9360b)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+        "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+        "Format Check Passed: Carousel contact sheet exists"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.735930+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 19.2 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'hook_tutorials'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'text_post' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: linkedin",
+        "Format Check Passed: Content format declared: text_post",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: LinkedIn character length within limit (640/3000)",
+        "Format Check Passed: LinkedIn opening hook meets minimum depth",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.736399+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 15.5 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'hook_tutorials'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 1 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: youtube_shorts",
+        "Format Check Passed: Content format declared: short_video",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+        "Format Check Passed: Shorts spoken word count acceptable (62/140 words)",
+        "Format Check Passed: Video scene cues structured (3 scenes)",
+        "Format Check Passed: Estimated duration within vertical limit (33.0s <= 60.0s)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_02_c0381237)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: preview.mp4 exists on disk (422503 bytes)",
+        "Format Check Passed: Actual probed MP4 duration: 29.96s",
+        "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+        "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+        "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.806260+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 19.7 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'hook_tutorials'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'thread' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: twitter",
+        "Format Check Passed: Content format declared: thread",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (2 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format compatible with X (Thread or Post)",
+        "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.806621+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 15.0 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'hook_tutorials'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 6 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: instagram",
+        "Format Check Passed: Content format declared: carousel",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Carousel slide count acceptable (5 slides)",
+        "Format Check Passed: All carousel slides possess headline and body copy",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_02_c0381237)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+        "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+        "Format Check Passed: Carousel contact sheet exists"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.826577+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 17.2 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'text_post' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: linkedin",
+        "Format Check Passed: Content format declared: text_post",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: LinkedIn character length within limit (606/3000)",
+        "Format Check Passed: LinkedIn opening hook meets minimum depth",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.827011+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 13.5 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 1 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: youtube_shorts",
+        "Format Check Passed: Content format declared: short_video",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+        "Format Check Passed: Shorts spoken word count acceptable (54/140 words)",
+        "Format Check Passed: Video scene cues structured (3 scenes)",
+        "Format Check Passed: Estimated duration within vertical limit (29.5s <= 60.0s)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_03_83e8fc0d)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: preview.mp4 exists on disk (360375 bytes)",
+        "Format Check Passed: Actual probed MP4 duration: 26.50s",
+        "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+        "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+        "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.897180+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 18.7 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Content format 'thread' is text-based; media rights not applicable."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: twitter",
+        "Format Check Passed: Content format declared: thread",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (2 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Format compatible with X (Thread or Post)",
+        "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.897504+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    },
+    {
+      "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+      "brand_compliance_status": "PASS",
+      "brand_compliance_findings": [
+        "Readability Compliant: Average sentence length is 16.0 words (target: 12-18 words).",
+        "Strategic Pillar: Aligned to 'creator_operations'."
+      ],
+      "unsupported_claim_findings": [
+        "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+      ],
+      "destination_url_status": "APPROVED",
+      "destination_url": "https://app.incubrix.com/",
+      "rights_status": "NOT_APPLICABLE",
+      "rights_findings": [
+        "Media Provenance and File Integrity Verified: All 6 media file(s) matched manifest SHA-256 digests with strict directory isolation and verified internal kinetic typography provenance."
+      ],
+      "platform_readiness_status": "PASS",
+      "platform_readiness_findings": [
+        "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+        "Format Check Passed: Platform declared: instagram",
+        "Format Check Passed: Content format declared: carousel",
+        "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+        "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+        "Format Check Passed: Call to action present",
+        "Format Check Passed: Hashtags provided (3 tags)",
+        "Format Check Passed: Target audience explicitly identified",
+        "Format Check Passed: Strategic content pillar mapped: creator_operations",
+        "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+        "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+        "Format Check Passed: Carousel slide count acceptable (5 slides)",
+        "Format Check Passed: All carousel slides possess headline and body copy",
+        "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+        "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+        "Format Check Passed: Source-derived core text isolated for factual audit",
+        "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+        "Format Check Passed: Call to action correctly categorized as generated suggestion",
+        "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+        "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+        "Format Check Passed: Render manifest exists and contains valid JSON",
+        "Format Check Passed: Manifest source segment matches draft (seg_03_83e8fc0d)",
+        "Format Check Passed: Manifest enforces draft review status",
+        "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+        "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+        "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+        "Format Check Passed: Carousel contact sheet exists"
+      ],
+      "requires_human_review": true,
+      "is_ready_to_publish": false,
+      "evaluated_at": "2026-10-30T18:31:04.916146+00:00",
+      "details": {
+        "brand_name": "IncuBrix",
+        "destination_url_findings": [
+          "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+        ],
+        "sub_statuses": {
+          "voice_and_claims": "PASS",
+          "destination_url": "APPROVED",
+          "media_rights": "NOT_APPLICABLE",
+          "platform_readiness": "PASS"
+        }
+      }
+    }
+  ]
+}

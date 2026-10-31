@@ -1,0 +1,24 @@
+# IncuBrix Social Media Marketing & Content Engine
+# Core Python Dependencies (compatible with Python 3.14+)
+
+# Data Validation & Schemas
+pydantic>=2.10.0
+
+# Data Processing & Spreadsheets
+openpyxl>=3.1.0
+pandas>=2.2.0
+
+# Media Processing & Rendering (Local / Zero-Cost)
+pillow>=11.0.0
+imageio-ffmpeg>=0.5.0
+gTTS>=2.5.0
+
+# Web Framework & Server (Optional Dashboard)
+fastapi>=0.115.0
+uvicorn>=0.34.0
+python-dotenv>=1.0.0
+
+# Automated Testing & Quality Gates
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+

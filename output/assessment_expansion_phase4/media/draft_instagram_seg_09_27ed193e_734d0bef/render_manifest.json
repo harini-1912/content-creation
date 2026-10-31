@@ -1,0 +1,33 @@
+{
+  "asset_id": "draft_instagram_seg_09_27ed193e_734d0bef",
+  "platform": "instagram",
+  "content_format": "carousel",
+  "media_provenance": "LOCALLY_GENERATED_KINETIC_TEXT",
+  "renderer_engine": "IncuBrix Media Renderer v1.0 (Pillow)",
+  "media_rights_status": "NOT_APPLICABLE",
+  "permission_evidence_reference": null,
+  "dimensions": "1080x1080",
+  "slide_count": 5,
+  "source_document": "content_operations_masterclass.md",
+  "source_segment_id": "seg_09_27ed193e",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "output_files": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "carousel_contact_sheet.png"
+  ],
+  "file_hashes": {
+    "slide_01.png": "8ab68d909cde4d94726f996ffd9b879b905101c23f85cfff86f778d21459313f",
+    "slide_02.png": "3200d8a21b78fd8ff466826cf4db1f3c07abeffe802f8e6f9d2073b22d548667",
+    "slide_03.png": "556eb729222f5d5b7386b9a65c042251b91eb51de5fbff8d773b167b8c5280f7",
+    "slide_04.png": "e0fe209688e9ccbcf2b575696f135d504f01f27081300a5caf38cba18f2dcc97",
+    "slide_05.png": "920bb5d35312cd183b21e1856bbb6f57731c939ea70b33f589ab7395b8493ede",
+    "carousel_contact_sheet.png": "5faeb944500cee81894492b843f1cb33241f0e139922ed9a9a6628159c6aeb40"
+  },
+  "integrity_algorithm": "SHA-256",
+  "rendered_at": "2026-10-30T19:04:05.231581+00:00"
+}

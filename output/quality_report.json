@@ -1,0 +1,190 @@
+{
+  "title": "IncuBrix Content Engine \u2014 Batch Generation & Quality Gate Report",
+  "generated_at": "2026-10-30T13:50:32.197546+00:00",
+  "source_provenance": {
+    "source_document": "repurposing_operations_guide.md",
+    "total_source_segments_extracted": 3
+  },
+  "generation_metrics": {
+    "target_assets_requested": 10,
+    "total_unique_assets_generated": 12,
+    "target_goal_satisfied": true,
+    "shortfall": 0,
+    "duplicate_padding_applied": false,
+    "shortfall_notice": "Target quantity satisfied with distinct, source-derived content."
+  },
+  "quality_gate_summary": {
+    "total_assets_evaluated": 12,
+    "passed_cleanly": 12,
+    "passed_with_warnings": 0,
+    "failed_quality_gate": 0,
+    "requiring_human_review": 12,
+    "factually_verified": 0,
+    "ready_to_publish": 0,
+    "governance_rule": "Automated validation assesses technical and structural formatting only. All generated drafts remain DRAFT_PENDING_REVIEW and require human editorial sign-off. Zero assets are marked ready to publish automatically."
+  },
+  "platform_distribution": {
+    "linkedin": 3,
+    "youtube_shorts": 3,
+    "twitter": 3,
+    "instagram": 3
+  },
+  "asset_evaluations": [
+    {
+      "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+      "platform": "linkedin",
+      "format": "text_post",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_01_89a9360b",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+      "platform": "youtube_shorts",
+      "format": "short_video",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_01_89a9360b",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 21
+    },
+    {
+      "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+      "platform": "twitter",
+      "format": "thread",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_01_89a9360b",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+      "platform": "instagram",
+      "format": "carousel",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_01_89a9360b",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+      "platform": "linkedin",
+      "format": "text_post",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_02_c0381237",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+      "platform": "youtube_shorts",
+      "format": "short_video",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_02_c0381237",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 21
+    },
+    {
+      "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+      "platform": "twitter",
+      "format": "thread",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_02_c0381237",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+      "platform": "instagram",
+      "format": "carousel",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_02_c0381237",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+      "platform": "linkedin",
+      "format": "text_post",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+      "platform": "youtube_shorts",
+      "format": "short_video",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 21
+    },
+    {
+      "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+      "platform": "twitter",
+      "format": "thread",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    },
+    {
+      "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+      "platform": "instagram",
+      "format": "carousel",
+      "status": "PASS",
+      "claim_classification": "SOURCE_ATTRIBUTED_UNVERIFIED",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "requires_human_review": true,
+      "ready_to_publish": false,
+      "failed_checks": [],
+      "warnings": [],
+      "passed_checks_count": 19
+    }
+  ]
+}

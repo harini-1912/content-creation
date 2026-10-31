@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "run_id": "demo_phase3_6_run",
+  "run_timestamp": "2026-10-30T18:31:04.944277+00:00",
+  "execution_duration_seconds": 8.72,
+  "source_provenance": {
+    "source_document": "repurposing_operations_guide.md",
+    "source_path": "sample_inputs\\repurposing_operations_guide.md",
+    "total_segments_ingested": 3
+  },
+  "generation_metrics": {
+    "total_candidates_generated": 12,
+    "platform_breakdown": {
+      "linkedin": 3,
+      "youtube_shorts": 3,
+      "twitter": 3,
+      "instagram": 3
+    },
+    "target_count": 10,
+    "target_met": true,
+    "shortfall": 0,
+    "duplicate_padding_applied": false
+  },
+  "quality_gate_summary": {
+    "counts": {
+      "PASS": 12,
+      "PASS_WITH_WARNINGS": 0,
+      "FAIL": 0
+    },
+    "pass_rate_percent": 100.0,
+    "ready_to_publish_count": 0,
+    "human_review_required_count": 12
+  },
+  "compliance_summary": {
+    "status_counts": {
+      "PASS": 12,
+      "PASS_WITH_WARNINGS": 0,
+      "FAIL": 0,
+      "NOT_ASSESSED": 0
+    },
+    "destination_url_counts": {
+      "APPROVED": 12,
+      "UNAPPROVED": 0,
+      "PENDING_DESTINATION_URL": 0,
+      "INVALID": 0
+    },
+    "media_rights_counts": {
+      "VERIFIED": 0,
+      "PENDING_VERIFICATION": 0,
+      "RESTRICTED": 0,
+      "NOT_APPLICABLE": 12
+    },
+    "unsupported_claim_count": 0,
+    "human_review_required": true,
+    "ready_to_publish_count": 0
+  },
+  "media_rendering_summary": {
+    "rendered_count": 6,
+    "skipped_count": 6,
+    "failed_count": 0
+  },
+  "review_workflow_summary": {
+    "review_status_counts": {
+      "PENDING_REVIEW": 11,
+      "IN_REVIEW": 0,
+      "REVISION_REQUESTED": 0,
+      "REJECTED": 0,
+      "APPROVED": 1
+    },
+    "approved_export_count": 1,
+    "unapproved_export_count": 11,
+    "automated_approvals_applied": false
+  },
+  "attribution_and_tracking": {
+    "has_destination_url": true,
+    "destination_url": "https://app.incubrix.com/",
+    "tracking_urls_generated": true
+  },
+  "stages": {
+    "stage_1_input_validation": "SUCCESS",
+    "stage_2_source_ingestion": "SUCCESS",
+    "stage_3_candidate_generation": "SUCCESS",
+    "stage_4_quality_evaluation": "SUCCESS",
+    "stage_5_media_rendering": "SUCCESS",
+    "stage_7_compliance_evaluation": "SUCCESS",
+    "stage_8_review_registration": "SUCCESS",
+    "stage_9_calendar_exports": "SUCCESS",
+    "stage_10_summary_reporting": "SUCCESS"
+  },
+  "warnings": [],
+  "errors": [],
+  "output_paths": {
+    "run_dir": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run",
+    "complete_calendar": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\calendars\\complete_draft_calendar.csv",
+    "approved_calendar": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\calendars\\approved_calendar.csv",
+    "unapproved_calendar": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\calendars\\unapproved_calendar.csv",
+    "quality_report": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\quality\\quality_report.json",
+    "compliance_report": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\compliance\\compliance_report.json",
+    "pipeline_summary": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\summaries\\pipeline_summary.json",
+    "review_store": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\summaries\\review_store.json",
+    "media_dir": "output\\demonstrations\\pipeline_run\\demo_phase3_6_run\\media"
+  }
+}

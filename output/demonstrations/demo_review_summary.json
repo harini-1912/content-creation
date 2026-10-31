@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "report_timestamp": "2026-10-30T14:30:39.170117+00:00",
+  "total_registered_assets": 12,
+  "review_status_summary": {
+    "PENDING_REVIEW": 9,
+    "IN_REVIEW": 0,
+    "REVISION_REQUESTED": 1,
+    "REJECTED": 1,
+    "APPROVED": 1
+  },
+  "quality_status_summary": {
+    "PASS": 12,
+    "PASS_WITH_WARNINGS": 0,
+    "FAIL": 0,
+    "NOT_EVALUATED": 0
+  },
+  "approved_assets_count": 1,
+  "unapproved_assets_count": 11,
+  "publishing_safety": {
+    "social_publishing_triggered": false,
+    "is_ready_to_publish_enforced_false": true,
+    "factual_truth_guaranteed_by_engine": false
+  },
+  "assets": [
+    {
+      "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+      "platform": "linkedin",
+      "content_format": "text_post",
+      "review_status": "APPROVED",
+      "reviewer_id": "Reviewer_Ops_Lead_01",
+      "approval_timestamp": "2026-10-30T14:30:39.162228+00:00",
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_01_89a9360b",
+      "audit_actions_count": 3
+    },
+    {
+      "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+      "platform": "youtube_shorts",
+      "content_format": "short_video",
+      "review_status": "REVISION_REQUESTED",
+      "reviewer_id": "Reviewer_Editorial_02",
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_01_89a9360b",
+      "audit_actions_count": 2
+    },
+    {
+      "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+      "platform": "twitter",
+      "content_format": "thread",
+      "review_status": "REJECTED",
+      "reviewer_id": "Reviewer_Editorial_02",
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_01_89a9360b",
+      "audit_actions_count": 1
+    },
+    {
+      "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+      "platform": "instagram",
+      "content_format": "carousel",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_01_89a9360b",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+      "platform": "linkedin",
+      "content_format": "text_post",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_02_c0381237",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+      "platform": "youtube_shorts",
+      "content_format": "short_video",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_02_c0381237",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+      "platform": "twitter",
+      "content_format": "thread",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_02_c0381237",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+      "platform": "instagram",
+      "content_format": "carousel",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_02_c0381237",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+      "platform": "linkedin",
+      "content_format": "text_post",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+      "platform": "youtube_shorts",
+      "content_format": "short_video",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+      "platform": "twitter",
+      "content_format": "thread",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "audit_actions_count": 0
+    },
+    {
+      "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+      "platform": "instagram",
+      "content_format": "carousel",
+      "review_status": "PENDING_REVIEW",
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "quality_gate_status": "PASS",
+      "source_document": "repurposing_operations_guide.md",
+      "source_segment_id": "seg_03_83e8fc0d",
+      "audit_actions_count": 0
+    }
+  ]
+}

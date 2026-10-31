@@ -1,0 +1,30 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary video jobs & runtime caches
+output/video_jobs/
+logs/*
+!logs/.gitkeep
+*.log
+
+# Large raw test video files (keep sample markdown documents)
+sample_inputs/*.mp4
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

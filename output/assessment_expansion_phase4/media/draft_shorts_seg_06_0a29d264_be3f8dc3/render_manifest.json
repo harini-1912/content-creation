@@ -1,0 +1,28 @@
+{
+  "asset_id": "draft_shorts_seg_06_0a29d264_be3f8dc3",
+  "platform": "youtube_shorts",
+  "content_format": "short_video",
+  "media_provenance": "LOCALLY_GENERATED_KINETIC_TEXT",
+  "renderer_engine": "IncuBrix Media Renderer v1.0 (Pillow + FFmpeg)",
+  "media_rights_status": "NOT_APPLICABLE",
+  "permission_evidence_reference": null,
+  "dimensions": "1080x1920",
+  "duration_seconds": 19.5,
+  "estimated_duration_seconds": 16.5,
+  "duration_probe_method": "ffmpeg_inspection",
+  "scene_count": 3,
+  "source_document": "content_operations_masterclass.md",
+  "source_segment_id": "seg_06_0a29d264",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "is_silent": true,
+  "audio_notice": "Silent preview: procedural text cards with no voiceover synthesized (offline mode).",
+  "output_files": [
+    "preview.mp4"
+  ],
+  "file_hashes": {
+    "preview.mp4": "2b08d3d849e6b38b86692ca46f7d6eb9f60a96a2d71fe302f26ae4311903709d"
+  },
+  "integrity_algorithm": "SHA-256",
+  "rendered_at": "2026-10-30T19:03:56.701149+00:00"
+}

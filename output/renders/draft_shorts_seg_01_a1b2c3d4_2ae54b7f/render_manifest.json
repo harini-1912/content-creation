@@ -1,0 +1,20 @@
+{
+  "asset_id": "draft_shorts_seg_01_a1b2c3d4_2ae54b7f",
+  "platform": "youtube_shorts",
+  "content_format": "short_video",
+  "dimensions": "1080x1920",
+  "duration_seconds": 22.96,
+  "estimated_duration_seconds": 20.0,
+  "duration_probe_method": "ffmpeg_inspection",
+  "scene_count": 3,
+  "source_document": "workflow_guide.md",
+  "source_segment_id": "seg_01_a1b2c3d4",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "is_silent": true,
+  "audio_notice": "Silent preview: procedural text cards with no voiceover synthesized (offline mode).",
+  "output_files": [
+    "preview.mp4"
+  ],
+  "rendered_at": "2026-10-30T13:31:27.023078+00:00"
+}

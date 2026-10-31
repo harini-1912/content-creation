@@ -1,0 +1,33 @@
+{
+  "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+  "platform": "instagram",
+  "content_format": "carousel",
+  "media_provenance": "LOCALLY_GENERATED_KINETIC_TEXT",
+  "renderer_engine": "IncuBrix Media Renderer v1.0 (Pillow)",
+  "media_rights_status": "NOT_APPLICABLE",
+  "permission_evidence_reference": null,
+  "dimensions": "1080x1080",
+  "slide_count": 5,
+  "source_document": "repurposing_operations_guide.md",
+  "source_segment_id": "seg_03_83e8fc0d",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "output_files": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "carousel_contact_sheet.png"
+  ],
+  "file_hashes": {
+    "slide_01.png": "22bf106d1d29aef02e07beb6cca44bba40a9bf78656c636c897cdec468ba2b17",
+    "slide_02.png": "16e62dd614939f0c1e950bc9323c921f765cdfdfb2bac413303228dcc6019404",
+    "slide_03.png": "7f89f83fe047eb017e88ae81a0c205589045caccc3956e51adb2fec4ea2bfe36",
+    "slide_04.png": "92e18fc27efd9ca6cc7d9c05e713e903c49b0aa45a6509c16c76e949b49bccc9",
+    "slide_05.png": "920bb5d35312cd183b21e1856bbb6f57731c939ea70b33f589ab7395b8493ede",
+    "carousel_contact_sheet.png": "6ee272f189b4f28e79a5f5b1e8b0d8dfc0b18418a9bf0620dd1ae84c10fad01d"
+  },
+  "integrity_algorithm": "SHA-256",
+  "rendered_at": "2026-10-30T18:31:04.301563+00:00"
+}

@@ -1,0 +1,2882 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-30T18:31:05.041428+00:00",
+  "total_assets": 12,
+  "assets": {
+    "draft_linkedin_seg_01_89a9360b_3d8f8986": {
+      "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+      "draft": {
+        "draft_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "creator_operations",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+        "draft_caption": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.\n\u2022 A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "creator_operations",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+        "draft_caption": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.\n\u2022 A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "APPROVED",
+      "quality_result": {
+        "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: linkedin",
+          "Content format declared: text_post",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "LinkedIn character length within limit (643/3000)",
+          "LinkedIn opening hook meets minimum depth",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_01_89a9360b'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (6 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "source_segment_id": "seg_01_89a9360b",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 20.0 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'text_post' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: linkedin",
+          "Format Check Passed: Content format declared: text_post",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: LinkedIn character length within limit (643/3000)",
+          "Format Check Passed: LinkedIn opening hook meets minimum depth",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.220274+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [
+        {
+          "action_id": "act_41eb604d0ed0",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T15:07:16.190035+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "PENDING_REVIEW",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_829c7a14a5d7",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T15:10:21.153932+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_9a342f7fc840",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T15:15:15.440704+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_f81f1b09b7a7",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T15:46:24.234302+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_20d821f88df7",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T15:48:01.586846+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_08513844460a",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T16:37:18.798508+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_653cf33f11b0",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T17:30:02.921791+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_df0cccc01b01",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T18:08:40.538566+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        },
+        {
+          "action_id": "act_fc8816958084",
+          "asset_id": "draft_linkedin_seg_01_89a9360b_3d8f8986",
+          "action": "APPROVE",
+          "reviewer_id": "Synthetic_Reviewer_Persona_01",
+          "timestamp": "2026-10-30T18:31:05.040859+00:00",
+          "comments": "Editorial and claim review confirmed against source segment.",
+          "previous_status": "APPROVED",
+          "new_status": "APPROVED",
+          "metadata": {
+            "quality_status": "PASS",
+            "claims_reviewed_confirmed": true,
+            "warnings_reviewed_confirmed": true,
+            "warnings_count": 0
+          }
+        }
+      ],
+      "reviewer_id": "Synthetic_Reviewer_Persona_01",
+      "approval_timestamp": "2026-10-30T18:31:05.040859+00:00",
+      "claims_reviewed_confirmed": true,
+      "warnings_reviewed_confirmed": true,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:05:40.682381+00:00",
+      "updated_at": "2026-10-30T18:31:05.040859+00:00"
+    },
+    "draft_shorts_seg_01_89a9360b_2e0754a6": {
+      "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+      "draft": {
+        "draft_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "creator_operations",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Publishing consistently across four distinct socia",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Publishing consistently across four distinct socia",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 22.3,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+            "on_screen_text": "Publishing consistently across four distinct ...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 34.3,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "creator_operations",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Publishing consistently across four distinct socia",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Publishing consistently across four distinct socia",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 22.3,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+            "on_screen_text": "Publishing consistently across four distinct ...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 34.3,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: youtube_shorts",
+          "Content format declared: short_video",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Shorts spoken word count acceptable (65/140 words)",
+          "Video scene cues structured (3 scenes)",
+          "Estimated duration within vertical limit (34.3s <= 60.0s)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_01_89a9360b'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (5 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_01_89a9360b)",
+          "Manifest enforces draft review status",
+          "preview.mp4 exists on disk (444067 bytes)",
+          "Actual probed MP4 duration: 31.29s",
+          "Probed MP4 duration complies with vertical video <=60s limit",
+          "Actual probed MP4 dimensions: 1080x1920",
+          "Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "source_segment_id": "seg_01_89a9360b",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_shorts_seg_01_89a9360b_2e0754a6",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 16.2 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: youtube_shorts",
+          "Format Check Passed: Content format declared: short_video",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Format Check Passed: Shorts spoken word count acceptable (65/140 words)",
+          "Format Check Passed: Video scene cues structured (3 scenes)",
+          "Format Check Passed: Estimated duration within vertical limit (34.3s <= 60.0s)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_01_89a9360b)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: preview.mp4 exists on disk (444067 bytes)",
+          "Format Check Passed: Actual probed MP4 duration: 31.29s",
+          "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+          "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+          "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.289759+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:05:40.685575+00:00",
+      "updated_at": "2026-10-30T15:05:40.685575+00:00"
+    },
+    "draft_twitter_seg_01_89a9360b_2fa84405": {
+      "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+      "draft": {
+        "draft_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "creator_operations",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\n\n---\n\n2/3 Here is why:\n\nHowever, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "creator_operations",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\n\n---\n\n2/3 Here is why:\n\nHowever, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nPublishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: twitter",
+          "Content format declared: thread",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (2 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format compatible with X (Thread or Post)",
+          "All tweets in thread within 280 characters (3 tweets)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_01_89a9360b'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "twitter",
+        "content_format": "thread",
+        "source_segment_id": "seg_01_89a9360b",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_twitter_seg_01_89a9360b_2fa84405",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 21.7 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'thread' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: twitter",
+          "Format Check Passed: Content format declared: thread",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (2 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format compatible with X (Thread or Post)",
+          "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.290097+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:05:40.691123+00:00",
+      "updated_at": "2026-10-30T15:05:40.691123+00:00"
+    },
+    "draft_instagram_seg_01_89a9360b_4974f344": {
+      "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+      "draft": {
+        "draft_id": "draft_instagram_seg_01_89a9360b_4974f344",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "creator_operations",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: Multi-Channel Content Repurposing Operations [TEST FIXTURE] (5-Slide Visual Walkthrough)",
+        "draft_caption": "Multi-Channel Content Repurposing Operations [TEST FIXTURE]\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: Multi-Channel Content Repurposing Operations [TEST FIXTURE] (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "Multi-Channel Content Repurposing Operat",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "Multi-Channel Content Repurposing Operat",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern m",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exha",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual c",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_instagram_seg_01_89a9360b_4974f344",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_01_89a9360b",
+        "source_excerpt": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams.\nHowever, attemptin...",
+        "source_derived_text": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern media teams. However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exhaustion and erratic distribution. A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual carousels, and discussion threads.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "creator_operations",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: Multi-Channel Content Repurposing Operations [TEST FIXTURE] (5-Slide Visual Walkthrough)",
+        "draft_caption": "Multi-Channel Content Repurposing Operations [TEST FIXTURE]\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: Multi-Channel Content Repurposing Operations [TEST FIXTURE] (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "Multi-Channel Content Repurposing Operat",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "Multi-Channel Content Repurposing Operat",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Publishing consistently across four distinct social platforms is one of the highest leverage growth motions for modern m",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "However, attempting to record net-new footage and draft bespoke copy every single morning leads directly to creator exha",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "A disciplined repurposing architecture converts one foundational masterclass into platform-native short videos, visual c",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_01_89a9360b"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: instagram",
+          "Content format declared: carousel",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Carousel slide count acceptable (5 slides)",
+          "All carousel slides possess headline and body copy",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_01_89a9360b'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_01_89a9360b)",
+          "Manifest enforces draft review status",
+          "All 5 carousel slide PNGs exist on disk",
+          "slide_01.png is a readable 1080x1080 image",
+          "slide_02.png is a readable 1080x1080 image",
+          "slide_03.png is a readable 1080x1080 image",
+          "slide_04.png is a readable 1080x1080 image",
+          "slide_05.png is a readable 1080x1080 image",
+          "Carousel contact sheet exists"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "instagram",
+        "content_format": "carousel",
+        "source_segment_id": "seg_01_89a9360b",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_instagram_seg_01_89a9360b_4974f344",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 17.0 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_01_89a9360b' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: instagram",
+          "Format Check Passed: Content format declared: carousel",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Carousel slide count acceptable (5 slides)",
+          "Format Check Passed: All carousel slides possess headline and body copy",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_01_89a9360b'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_01_89a9360b)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+          "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+          "Format Check Passed: Carousel contact sheet exists"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.305927+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:05:40.694517+00:00",
+      "updated_at": "2026-10-30T15:05:40.694517+00:00"
+    },
+    "draft_linkedin_seg_02_c0381237_c86c775a": {
+      "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+      "draft": {
+        "draft_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "hook_tutorials",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+        "draft_caption": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.\n\u2022 High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "hook_tutorials",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+        "draft_caption": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.\n\u2022 High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: linkedin",
+          "Content format declared: text_post",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: hook_tutorials",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "LinkedIn character length within limit (640/3000)",
+          "LinkedIn opening hook meets minimum depth",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_02_c0381237'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (6 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "source_segment_id": "seg_02_c0381237",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "hook_tutorials",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_linkedin_seg_02_c0381237_c86c775a",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 19.2 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'hook_tutorials'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'text_post' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: linkedin",
+          "Format Check Passed: Content format declared: text_post",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: LinkedIn character length within limit (640/3000)",
+          "Format Check Passed: LinkedIn opening hook meets minimum depth",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.306380+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050601+00:00",
+      "updated_at": "2026-10-30T15:07:16.050601+00:00"
+    },
+    "draft_shorts_seg_02_c0381237_7ae17496": {
+      "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+      "draft": {
+        "draft_id": "draft_shorts_seg_02_c0381237_7ae17496",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Vertical video feeds impose intense cognitive comp",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Vertical video feeds impose intense cognitive comp",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 21.0,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+            "on_screen_text": "Vertical video feeds impose intense cognitive...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 33.0,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_shorts_seg_02_c0381237_7ae17496",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Vertical video feeds impose intense cognitive comp",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Vertical video feeds impose intense cognitive comp",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 21.0,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+            "on_screen_text": "Vertical video feeds impose intense cognitive...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 33.0,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: youtube_shorts",
+          "Content format declared: short_video",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: hook_tutorials",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Shorts spoken word count acceptable (62/140 words)",
+          "Video scene cues structured (3 scenes)",
+          "Estimated duration within vertical limit (33.0s <= 60.0s)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_02_c0381237'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (5 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_02_c0381237)",
+          "Manifest enforces draft review status",
+          "preview.mp4 exists on disk (422503 bytes)",
+          "Actual probed MP4 duration: 29.96s",
+          "Probed MP4 duration complies with vertical video <=60s limit",
+          "Actual probed MP4 dimensions: 1080x1920",
+          "Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "source_segment_id": "seg_02_c0381237",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "hook_tutorials",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_shorts_seg_02_c0381237_7ae17496",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 15.5 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'hook_tutorials'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: youtube_shorts",
+          "Format Check Passed: Content format declared: short_video",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Format Check Passed: Shorts spoken word count acceptable (62/140 words)",
+          "Format Check Passed: Video scene cues structured (3 scenes)",
+          "Format Check Passed: Estimated duration within vertical limit (33.0s <= 60.0s)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_02_c0381237)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: preview.mp4 exists on disk (422503 bytes)",
+          "Format Check Passed: Actual probed MP4 duration: 29.96s",
+          "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+          "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+          "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.374183+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050675+00:00",
+      "updated_at": "2026-10-30T15:07:16.050675+00:00"
+    },
+    "draft_twitter_seg_02_c0381237_7e3d69db": {
+      "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+      "draft": {
+        "draft_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\n\n---\n\n2/3 Here is why:\n\nStandard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\n\n---\n\n2/3 Here is why:\n\nStandard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nVertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: twitter",
+          "Content format declared: thread",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (2 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: hook_tutorials",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format compatible with X (Thread or Post)",
+          "All tweets in thread within 280 characters (3 tweets)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_02_c0381237'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "twitter",
+        "content_format": "thread",
+        "source_segment_id": "seg_02_c0381237",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "hook_tutorials",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_twitter_seg_02_c0381237_7e3d69db",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 19.7 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'hook_tutorials'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'thread' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: twitter",
+          "Format Check Passed: Content format declared: thread",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (2 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format compatible with X (Thread or Post)",
+          "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.374581+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050721+00:00",
+      "updated_at": "2026-10-30T15:07:16.050721+00:00"
+    },
+    "draft_instagram_seg_02_c0381237_5c402458": {
+      "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+      "draft": {
+        "draft_id": "draft_instagram_seg_02_c0381237_5c402458",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: The First-Three-Second Retention Architecture (5-Slide Visual Walkthrough)",
+        "draft_caption": "The First-Three-Second Retention Architecture\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: The First-Three-Second Retention Architecture (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "The First-Three-Second Retention Archite",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "The First-Three-Second Retention Archite",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe aw",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retenti",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer ",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_instagram_seg_02_c0381237_5c402458",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_02_c0381237",
+        "source_excerpt": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds.\nStanda...",
+        "source_derived_text": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe away within milliseconds. Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retention. High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer curiosity before delivering tactical substance.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "hook_tutorials",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: The First-Three-Second Retention Architecture (5-Slide Visual Walkthrough)",
+        "draft_caption": "The First-Three-Second Retention Architecture\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: The First-Three-Second Retention Architecture (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "The First-Three-Second Retention Archite",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "The First-Three-Second Retention Archite",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Vertical video feeds impose intense cognitive competition where audience members decide to continue watching or swipe aw",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "Standard conversational pleasantries like introducing oneself or rambling about the weather destroy early viewer retenti",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "High-performing educational scripts open with an immediate contrarian insight or pattern disruption that anchors viewer ",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_02_c0381237"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: instagram",
+          "Content format declared: carousel",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: hook_tutorials",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Carousel slide count acceptable (5 slides)",
+          "All carousel slides possess headline and body copy",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_02_c0381237'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_02_c0381237)",
+          "Manifest enforces draft review status",
+          "All 5 carousel slide PNGs exist on disk",
+          "slide_01.png is a readable 1080x1080 image",
+          "slide_02.png is a readable 1080x1080 image",
+          "slide_03.png is a readable 1080x1080 image",
+          "slide_04.png is a readable 1080x1080 image",
+          "slide_05.png is a readable 1080x1080 image",
+          "Carousel contact sheet exists"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "instagram",
+        "content_format": "carousel",
+        "source_segment_id": "seg_02_c0381237",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "hook_tutorials",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_instagram_seg_02_c0381237_5c402458",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 15.0 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'hook_tutorials'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_02_c0381237' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: instagram",
+          "Format Check Passed: Content format declared: carousel",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: hook_tutorials",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Carousel slide count acceptable (5 slides)",
+          "Format Check Passed: All carousel slides possess headline and body copy",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_02_c0381237'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_02_c0381237)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+          "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+          "Format Check Passed: Carousel contact sheet exists"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.390316+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050771+00:00",
+      "updated_at": "2026-10-30T15:07:16.050771+00:00"
+    },
+    "draft_linkedin_seg_03_83e8fc0d_b424754d": {
+      "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+      "draft": {
+        "draft_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "creator_operations",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+        "draft_caption": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.\n\u2022 Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "pillar": "creator_operations",
+        "intended_audience": "B2B Growth Marketers & Agency Leads",
+        "draft_hook": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+        "draft_caption": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\n\nWhen analyzing content workflows, the operational structure dictates consistency:\n\n\u2022 Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.\n\u2022 Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.\n\nBuilding predictable distribution systems prevents creative burnout.",
+        "suggested_hashtags": [
+          "#CreatorOperations",
+          "#ContentStrategy",
+          "#Workflow"
+        ],
+        "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+        "generated_suggestions": {
+          "hook": "Operational perspective on content production: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+          "hook_prefix": "Operational perspective on content production: ",
+          "call_to_action": "What operating procedures does your team rely on to keep publishing steady?",
+          "transition_intro": "When analyzing content workflows, the operational structure dictates consistency:",
+          "transition_outro": "Building predictable distribution systems prevents creative burnout.",
+          "suggested_hashtags": "#CreatorOperations, #ContentStrategy, #Workflow"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: linkedin",
+          "Content format declared: text_post",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "LinkedIn character length within limit (606/3000)",
+          "LinkedIn opening hook meets minimum depth",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (6 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "linkedin",
+        "content_format": "text_post",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_linkedin_seg_03_83e8fc0d_b424754d",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 17.2 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'text_post' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: linkedin",
+          "Format Check Passed: Content format declared: text_post",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: LinkedIn character length within limit (606/3000)",
+          "Format Check Passed: LinkedIn opening hook meets minimum depth",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (6 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.390690+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050815+00:00",
+      "updated_at": "2026-10-30T15:07:16.050815+00:00"
+    },
+    "draft_shorts_seg_03_83e8fc0d_c466ff07": {
+      "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+      "draft": {
+        "draft_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "creator_operations",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Media teams must establish clear operational attri",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Media teams must establish clear operational attri",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 17.5,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+            "on_screen_text": "Media teams must establish clear operational ...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 29.5,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "pillar": "creator_operations",
+        "intended_audience": "Solo Creators & Video Editors",
+        "draft_hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Media teams must establish clear operational attri",
+        "draft_caption": "Stop overcomplicating your workflow. Here is the reality: Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "suggested_hashtags": [
+          "#Shorts",
+          "#CreatorOps",
+          "#VideoEditing"
+        ],
+        "call_to_action": "Save this video for your next production session.",
+        "generated_suggestions": {
+          "hook": "[0-3s Kinetic Card] Stop overcomplicating your workflow: Media teams must establish clear operational attri",
+          "call_to_action": "Save this video for your next production session.",
+          "opening_hook_voiceover": "Stop overcomplicating your workflow.",
+          "closing_takeaway_voiceover": "Focus on the core idea, then distribute.",
+          "visual_scene_cues": "3-scene vertical short outline"
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": [
+          {
+            "scene": 1,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Fast Zoom + Kinetic Text Header: WORKFLOW REALITY]",
+            "voiceover": "Stop overcomplicating your workflow.",
+            "on_screen_text": "STOP OVERCOMPLICATING THIS",
+            "is_generated_suggestion": true
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 17.5,
+            "visual_cue": "[Dark-mode card display with highlighted sentence bullets]",
+            "voiceover": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+            "on_screen_text": "Media teams must establish clear operational ...",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 3.0,
+            "visual_cue": "[Final Takeaway Card + Save Prompt]",
+            "voiceover": "Focus on the core idea, then distribute.",
+            "on_screen_text": "SAVE FOR LATER",
+            "is_generated_suggestion": true
+          }
+        ],
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": 29.5,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: youtube_shorts",
+          "Content format declared: short_video",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Shorts spoken word count acceptable (54/140 words)",
+          "Video scene cues structured (3 scenes)",
+          "Estimated duration within vertical limit (29.5s <= 60.0s)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (5 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_03_83e8fc0d)",
+          "Manifest enforces draft review status",
+          "preview.mp4 exists on disk (360375 bytes)",
+          "Actual probed MP4 duration: 26.50s",
+          "Probed MP4 duration complies with vertical video <=60s limit",
+          "Actual probed MP4 dimensions: 1080x1920",
+          "Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "youtube_shorts",
+        "content_format": "short_video",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_shorts_seg_03_83e8fc0d_c466ff07",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 13.5 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: youtube_shorts",
+          "Format Check Passed: Content format declared: short_video",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format matches YouTube Shorts constraint (SHORT_VIDEO)",
+          "Format Check Passed: Shorts spoken word count acceptable (54/140 words)",
+          "Format Check Passed: Video scene cues structured (3 scenes)",
+          "Format Check Passed: Estimated duration within vertical limit (29.5s <= 60.0s)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (5 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_03_83e8fc0d)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: preview.mp4 exists on disk (360375 bytes)",
+          "Format Check Passed: Actual probed MP4 duration: 26.50s",
+          "Format Check Passed: Probed MP4 duration complies with vertical video <=60s limit",
+          "Format Check Passed: Actual probed MP4 dimensions: 1080x1920",
+          "Format Check Passed: Probed MP4 dimensions comply with 9:16 vertical video (1080x1920)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.457654+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050857+00:00",
+      "updated_at": "2026-10-30T15:07:16.050857+00:00"
+    },
+    "draft_twitter_seg_03_83e8fc0d_586c9d03": {
+      "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+      "draft": {
+        "draft_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "creator_operations",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\n\n---\n\n2/3 Here is why:\n\nEnforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.",
+        "platform": "twitter",
+        "content_format": "thread",
+        "pillar": "creator_operations",
+        "intended_audience": "Tech Founders & Media Creators",
+        "draft_hook": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+        "draft_caption": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\n\n---\n\n2/3 Here is why:\n\nEnforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers.\n\n---\n\n3/3 Takeaway: Build a reliable operating procedure before scaling output.",
+        "suggested_hashtags": [
+          "#ContentStrategy",
+          "#BuildInPublic"
+        ],
+        "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+        "generated_suggestions": {
+          "hook": "1/3 Most content bottlenecks come down to one issue:\n\nMedia teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+          "call_to_action": "Retweet the first post if you found this operational perspective useful.",
+          "thread_framing": "1/3 Most content bottlenecks come down to one issue:",
+          "takeaway_tweet": "3/3 Takeaway: Build a reliable operating procedure before scaling output."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": null,
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: twitter",
+          "Content format declared: thread",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (2 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Format compatible with X (Thread or Post)",
+          "All tweets in thread within 280 characters (3 tweets)",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "twitter",
+        "content_format": "thread",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 19,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_twitter_seg_03_83e8fc0d_586c9d03",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 18.7 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Content format 'thread' is text-based; media rights not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: twitter",
+          "Format Check Passed: Content format declared: thread",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (2 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Format compatible with X (Thread or Post)",
+          "Format Check Passed: All tweets in thread within 280 characters (3 tweets)",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.457984+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050898+00:00",
+      "updated_at": "2026-10-30T15:07:16.050898+00:00"
+    },
+    "draft_instagram_seg_03_83e8fc0d_2867cb41": {
+      "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+      "draft": {
+        "draft_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "creator_operations",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: Attribution Modeling and Measurement Hygiene (5-Slide Visual Walkthrough)",
+        "draft_caption": "Attribution Modeling and Measurement Hygiene\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: Attribution Modeling and Measurement Hygiene (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "Attribution Modeling and Measurement Hyg",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "Attribution Modeling and Measurement Hyg",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vani",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleadin",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "original_draft": {
+        "draft_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+        "source_document": "repurposing_operations_guide.md",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "source_excerpt": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.\nEnforcing standardized UTM trackin...",
+        "source_derived_text": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages. Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vanity engagement numbers. Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleading performance metrics.",
+        "platform": "instagram",
+        "content_format": "carousel",
+        "pillar": "creator_operations",
+        "intended_audience": "Visual Creators & Agency Operators",
+        "draft_hook": "Slide 1 Cover: Attribution Modeling and Measurement Hygiene (5-Slide Visual Walkthrough)",
+        "draft_caption": "Attribution Modeling and Measurement Hygiene\n\nA 5-slide visual teardown on maintaining output consistency without production burnout.",
+        "suggested_hashtags": [
+          "#ContentRepurposing",
+          "#CreatorOps",
+          "#CarouselDesign"
+        ],
+        "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+        "generated_suggestions": {
+          "hook": "Slide 1 Cover: Attribution Modeling and Measurement Hygiene (5-Slide Visual Walkthrough)",
+          "call_to_action": "Save this post to revisit when planning your editorial calendar.",
+          "cover_slide": "Attribution Modeling and Measurement Hyg",
+          "cta_slide": "Save this carousel to reference during your next content planning sprint."
+        },
+        "is_source_attributed": true,
+        "is_factually_verified": false,
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "generation_mode": "OFFLINE_DETERMINISTIC",
+        "lifecycle_status": "generated",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "video_scene_cues": null,
+        "carousel_slide_outlines": [
+          {
+            "slide": 1,
+            "layout": "title_card",
+            "headline": "Attribution Modeling and Measurement Hyg",
+            "body": "A structured walkthrough based on practical workflow principles.",
+            "is_generated_suggestion": true
+          },
+          {
+            "slide": 2,
+            "layout": "problem_card",
+            "headline": "The Friction Point",
+            "body": "Media teams must establish clear operational attribution connecting social touchpoints to verifiable landing pages.",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 3,
+            "layout": "solution_card",
+            "headline": "The Operating Principle",
+            "body": "Enforcing standardized UTM tracking across every shared distribution link separates genuine audience discovery from vani",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 4,
+            "layout": "takeaway_card",
+            "headline": "Core Insight",
+            "body": "Consistent attribution parameters provide downstream clarity without inventing artificial conversion claims or misleadin",
+            "is_generated_suggestion": false,
+            "source_segment_id": "seg_03_83e8fc0d"
+          },
+          {
+            "slide": 5,
+            "layout": "cta_card",
+            "headline": "Summary",
+            "body": "Save this carousel to reference during your next content planning sprint.",
+            "is_generated_suggestion": true
+          }
+        ],
+        "estimated_duration_seconds": null,
+        "warnings": [],
+        "render_directory": null
+      },
+      "review_status": "PENDING_REVIEW",
+      "quality_result": {
+        "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+        "overall_status": "PASS",
+        "passed_checks": [
+          "Platform declared: instagram",
+          "Content format declared: carousel",
+          "Hook present and meets minimum length threshold (>=5 chars)",
+          "Body copy/script present and meets minimum substance (>=10 chars)",
+          "Call to action present",
+          "Hashtags provided (3 tags)",
+          "Target audience explicitly identified",
+          "Strategic content pillar mapped: creator_operations",
+          "Human review mandate enforced (requires_human_review == True)",
+          "Publication gate enforced (is_ready_to_publish == False)",
+          "Carousel slide count acceptable (5 slides)",
+          "All carousel slides possess headline and body copy",
+          "Source document referenced: 'repurposing_operations_guide.md'",
+          "Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Source-derived core text isolated for factual audit",
+          "Generated suggestions explicitly mapped (4 elements)",
+          "Call to action correctly categorized as generated suggestion",
+          "Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Render manifest exists and contains valid JSON",
+          "Manifest source segment matches draft (seg_03_83e8fc0d)",
+          "Manifest enforces draft review status",
+          "All 5 carousel slide PNGs exist on disk",
+          "slide_01.png is a readable 1080x1080 image",
+          "slide_02.png is a readable 1080x1080 image",
+          "slide_03.png is a readable 1080x1080 image",
+          "slide_04.png is a readable 1080x1080 image",
+          "slide_05.png is a readable 1080x1080 image",
+          "Carousel contact sheet exists"
+        ],
+        "failed_checks": [],
+        "warnings": [],
+        "requires_human_review": true,
+        "is_factually_verified": false,
+        "is_ready_to_publish": false,
+        "platform": "instagram",
+        "content_format": "carousel",
+        "source_segment_id": "seg_03_83e8fc0d",
+        "claim_category": "SOURCE_ATTRIBUTED_UNVERIFIED",
+        "metadata": {
+          "source_document": "repurposing_operations_guide.md",
+          "pillar": "creator_operations",
+          "passed_checks_count": 29,
+          "failed_checks_count": 0,
+          "warnings_count": 0
+        }
+      },
+      "compliance_result": {
+        "asset_id": "draft_instagram_seg_03_83e8fc0d_2867cb41",
+        "brand_compliance_status": "PASS",
+        "brand_compliance_findings": [
+          "Readability Compliant: Average sentence length is 16.0 words (target: 12-18 words).",
+          "Strategic Pillar: Aligned to 'creator_operations'."
+        ],
+        "unsupported_claim_findings": [
+          "Source Provenance: Draft content is attributed to source segment 'seg_03_83e8fc0d' in 'repurposing_operations_guide.md' (unverified independent factual truth)."
+        ],
+        "destination_url_status": "APPROVED",
+        "destination_url": "https://app.incubrix.com/",
+        "rights_status": "NOT_APPLICABLE",
+        "rights_findings": [
+          "Media Preview: Locally generated programmatic kinetic typography/visual slides. Internal original assets; third-party copyright not applicable."
+        ],
+        "platform_readiness_status": "PASS",
+        "platform_readiness_findings": [
+          "Platform Readiness Notice: Evaluates structural and technical formatting against internal delivery specifications. This does NOT represent official platform policy clearance or algorithmic ranking guarantees.",
+          "Format Check Passed: Platform declared: instagram",
+          "Format Check Passed: Content format declared: carousel",
+          "Format Check Passed: Hook present and meets minimum length threshold (>=5 chars)",
+          "Format Check Passed: Body copy/script present and meets minimum substance (>=10 chars)",
+          "Format Check Passed: Call to action present",
+          "Format Check Passed: Hashtags provided (3 tags)",
+          "Format Check Passed: Target audience explicitly identified",
+          "Format Check Passed: Strategic content pillar mapped: creator_operations",
+          "Format Check Passed: Human review mandate enforced (requires_human_review == True)",
+          "Format Check Passed: Publication gate enforced (is_ready_to_publish == False)",
+          "Format Check Passed: Carousel slide count acceptable (5 slides)",
+          "Format Check Passed: All carousel slides possess headline and body copy",
+          "Format Check Passed: Source document referenced: 'repurposing_operations_guide.md'",
+          "Format Check Passed: Source segment ID traceable: 'seg_03_83e8fc0d'",
+          "Format Check Passed: Source-derived core text isolated for factual audit",
+          "Format Check Passed: Generated suggestions explicitly mapped (4 elements)",
+          "Format Check Passed: Call to action correctly categorized as generated suggestion",
+          "Format Check Passed: Claim category classified: SOURCE_ATTRIBUTED_UNVERIFIED",
+          "Format Check Passed: Correctly classified as SOURCE_ATTRIBUTED_UNVERIFIED (faithful source copy pending review)",
+          "Format Check Passed: Render manifest exists and contains valid JSON",
+          "Format Check Passed: Manifest source segment matches draft (seg_03_83e8fc0d)",
+          "Format Check Passed: Manifest enforces draft review status",
+          "Format Check Passed: All 5 carousel slide PNGs exist on disk",
+          "Format Check Passed: slide_01.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_02.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_03.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_04.png is a readable 1080x1080 image",
+          "Format Check Passed: slide_05.png is a readable 1080x1080 image",
+          "Format Check Passed: Carousel contact sheet exists"
+        ],
+        "requires_human_review": true,
+        "is_ready_to_publish": false,
+        "evaluated_at": "2026-10-30T15:48:01.474658+00:00",
+        "details": {
+          "brand_name": "IncuBrix",
+          "destination_url_findings": [
+            "Destination URL 'https://app.incubrix.com/' is verified on the approved campaign allowlist."
+          ],
+          "sub_statuses": {
+            "voice_and_claims": "PASS",
+            "destination_url": "APPROVED",
+            "media_rights": "NOT_APPLICABLE",
+            "platform_readiness": "PASS"
+          }
+        }
+      },
+      "render_dir": null,
+      "review_history": [],
+      "reviewer_id": null,
+      "approval_timestamp": null,
+      "claims_reviewed_confirmed": false,
+      "warnings_reviewed_confirmed": false,
+      "revision_notes": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-30T15:07:16.050941+00:00",
+      "updated_at": "2026-10-30T15:07:16.050941+00:00"
+    }
+  }
+}

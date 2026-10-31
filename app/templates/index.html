@@ -1,0 +1,2762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>IncuBrix — Social Media Marketing & Content Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-sub: #f1f5f9;
+      --bg-input: #ffffff;
+      --border: #e2e8f0;
+      --border-subtle: #cbd5e1;
+      --border-focus: #4f46e5;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #64748b;
+      --indigo: #4f46e5;
+      --purple: #7c3aed;
+      --pink: #db2777;
+      --cyan: #0284c7;
+      --emerald: #10b981;
+      --amber: #d97706;
+      --amber-subtle: #fef3c7;
+      --rose: #ef4444;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f8fafc;
+      background-image: none;
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header */
+    header {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 0.95rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #db2777 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(99, 102, 241, 0.35);
+      transition: transform 0.2s ease;
+    }
+
+    .brand:hover .brand-logo {
+      transform: scale(1.05);
+    }
+
+    .brand-title {
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: -0.025em;
+      color: #0f172a;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .status-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 0.4rem 0.9rem;
+      border-radius: 999px;
+      color: #065f46;
+      box-shadow: 0 1px 2px rgba(16, 185, 129, 0.08);
+      cursor: default;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
+    }
+
+    .status-dot.warning {
+      background: #f59e0b;
+      box-shadow: 0 0 6px rgba(245, 158, 11, 0.5);
+    }
+
+    .btn-secondary {
+      background: #ffffff;
+      color: #1e293b;
+      border: 1px solid #cbd5e1;
+      padding: 0.45rem 0.95rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    .btn-secondary:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
+      color: #0f172a;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 1120px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    /* Page Intro */
+    .page-intro {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 0.5rem;
+    }
+
+    .page-intro h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      margin-bottom: 0.6rem;
+      color: #0f172a;
+      line-height: 1.2;
+    }
+
+    .page-intro p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Upload & Action Container */
+    .panel-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.06), 0 4px 6px -2px rgba(15, 23, 42, 0.03);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .panel-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 35%, #ec4899 70%, #06b6d4 100%);
+      opacity: 0.95;
+    }
+
+    .panel-section-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.85rem;
+    }
+
+    /* Input Type Selector Tabs */
+    .input-type-tabs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 640px) {
+      .input-type-tabs {
+        flex-direction: column;
+      }
+    }
+
+    .input-type-tab {
+      flex: 1;
+      background: #ffffff;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.1rem 1.25rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      color: var(--text-muted);
+      text-align: left;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    }
+
+    .input-type-tab:hover {
+      border-color: #cbd5e1;
+      background: #f8fafc;
+      color: var(--text-main);
+      transform: translateY(-1px);
+    }
+
+    .input-type-tab.active {
+      border-color: #4f46e5;
+      background: #ffffff;
+      color: var(--text-main);
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12), 0 4px 12px rgba(79, 70, 229, 0.08);
+    }
+
+    .tab-icon {
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .tab-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .tab-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+    }
+
+    .tab-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+
+    .input-type-tab.active .tab-subtitle {
+      color: #4f46e5;
+      font-weight: 500;
+    }
+
+    .brand-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: #eef2ff;
+      color: #4338ca;
+      border: 1px solid #c7d2fe;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .badge-source {
+      background: #e0f2fe;
+      color: #0369a1;
+      border: 1px solid #bae6fd;
+      max-width: 280px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .badge-metric {
+      background: #ecfdf5;
+      color: #047857;
+      border: 1px solid #a7f3d0;
+    }
+
+    .headings-pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .heading-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: #f1f5f9;
+      color: #334155;
+      border: 1px solid #e2e8f0;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-sm);
+    }
+
+    /* Drop Zone */
+    .dropzone {
+      border: 2px dashed #cbd5e1;
+      border-radius: var(--radius-md);
+      padding: 2.5rem 1.75rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      background: #f8fafc;
+      position: relative;
+    }
+
+    .dropzone:hover, .dropzone.dragover {
+      border-color: #4f46e5;
+      background: #eef2ff;
+      box-shadow: 0 0 20px rgba(79, 70, 229, 0.08);
+    }
+
+    .dropzone input[type="file"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .dropzone-icon {
+      font-size: 3rem;
+      margin-bottom: 0.75rem;
+      display: inline-block;
+    }
+
+    .dropzone-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.01em;
+    }
+
+    .dropzone-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .dropzone-limits {
+      margin-top: 1rem;
+      display: inline-flex;
+      gap: 0.75rem;
+      font-size: 0.75rem;
+      color: #475569;
+      background: #ffffff;
+      padding: 0.35rem 0.95rem;
+      border-radius: 999px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    }
+
+    /* Selected File Box */
+    .selected-file-box {
+      display: none;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.4rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    }
+
+    .selected-file-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      overflow: hidden;
+    }
+
+    .selected-file-icon {
+      width: 44px;
+      height: 44px;
+      background: #ede9fe;
+      border: 1px solid #ddd6fe;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: #6d28d9;
+      flex-shrink: 0;
+    }
+
+    .selected-file-name {
+      font-weight: 700;
+      font-size: 0.96rem;
+      color: var(--text-main);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 480px;
+    }
+
+    .selected-file-size {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .selected-file-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-shrink: 0;
+    }
+
+    /* Platform Selection Styles */
+    .platform-section {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.4rem;
+    }
+
+    .platform-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-bottom: 1.15rem;
+    }
+
+    .platform-actions-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .btn-tiny {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: var(--text-muted);
+      padding: 0.3rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+    }
+
+    .btn-tiny:hover {
+      background: #f1f5f9;
+      color: var(--text-main);
+      border-color: #94a3b8;
+    }
+
+    .platform-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    @media (max-width: 860px) {
+      .platform-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .platform-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .platform-card {
+      background: #ffffff;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    }
+
+    .platform-card:hover {
+      border-color: #a5b4fc;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .platform-card.selected {
+      border-color: #4f46e5;
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12), 0 4px 12px rgba(79, 70, 229, 0.08);
+    }
+
+    .platform-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .platform-icon-wrap {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+
+    .icon-youtube { background: #fee2e2; color: #dc2626; border: 1px solid #fecaca; }
+    .icon-instagram { background: #fce7f3; color: #db2777; border: 1px solid #fbcfe8; }
+    .icon-linkedin { background: #e0e7ff; color: #2563eb; border: 1px solid #c7d2fe; }
+    .icon-twitter { background: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd; }
+
+    .platform-checkbox {
+      width: 20px;
+      height: 20px;
+      border-radius: 6px;
+      border: 1.5px solid #cbd5e1;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: transparent;
+      font-size: 0.85rem;
+      font-weight: 800;
+      transition: all 0.2s ease;
+    }
+
+    .platform-card.selected .platform-checkbox {
+      background: #4f46e5;
+      border-color: #4f46e5;
+      color: #fff;
+    }
+
+    .platform-card-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .platform-card-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* Format Selection Styles */
+    .format-section {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.4rem;
+    }
+
+    .format-mode-selector {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1.15rem;
+      background: #ffffff;
+      padding: 0.45rem 0.9rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      width: fit-content;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    }
+
+    .mode-radio-label {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: color 0.15s ease;
+    }
+
+    .mode-radio-label.active {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    .format-groups-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .format-platform-block {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    }
+
+    .format-platform-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #334155;
+    }
+
+    .format-chips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .format-chip {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.7rem 0.85rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s ease;
+    }
+
+    .format-chip:hover {
+      border-color: #cbd5e1;
+      background: #f1f5f9;
+      transform: translateY(-1px);
+    }
+
+    .format-chip.selected {
+      border-color: #4f46e5;
+      background: #eef2ff;
+      box-shadow: 0 1px 3px rgba(79, 70, 229, 0.1);
+    }
+
+    .format-chip input[type="checkbox"] {
+      margin-top: 0.15rem;
+      cursor: pointer;
+      accent-color: var(--indigo);
+      width: 15px;
+      height: 15px;
+    }
+
+    .format-chip-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .format-chip-label {
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .format-chip-desc {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+
+    /* Summary Bar */
+    .selection-summary-bar {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 0.85rem 1.2rem;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.85rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+    }
+
+    .summary-text {
+      color: #334155;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .summary-text.warning {
+      color: #b45309;
+    }
+
+    /* Primary Action Button */
+    .action-row {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+      color: #ffffff;
+      border: none;
+      padding: 0.85rem 2rem;
+      border-radius: var(--radius-md);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      box-shadow: 0 4px 14px rgba(79, 70, 229, 0.3);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      letter-spacing: -0.01em;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      box-shadow: 0 6px 20px rgba(79, 70, 229, 0.45);
+      transform: translateY(-2px);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: none;
+    }
+
+    /* Progress & Stepper Area */
+    .stepper-container {
+      display: none;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.06);
+    }
+
+    .stepper-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+
+    .stepper-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-main);
+    }
+
+    .stepper-timer {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      background: #f1f5f9;
+      padding: 0.3rem 0.75rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      color: #334155;
+      font-weight: 600;
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .steps-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .step-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.1rem;
+      position: relative;
+      transition: all 0.25s ease;
+    }
+
+    .step-box.active {
+      border-color: #4f46e5;
+      background: #f5f3ff;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    }
+
+    .step-box.completed {
+      border-color: #10b981;
+      background: #ecfdf5;
+    }
+
+    .step-box.failed {
+      border-color: #ef4444;
+      background: #fef2f2;
+    }
+
+    .step-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-number {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-dim);
+    }
+
+    .step-icon {
+      font-size: 0.95rem;
+    }
+
+    .step-name {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.25rem;
+    }
+
+    .step-desc {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .step-spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(79, 70, 229, 0.2);
+      border-top-color: #4f46e5;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      display: inline-block;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .live-status-message {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      color: #334155;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    /* Alert / Error Box */
+    .alert-box {
+      display: none;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: var(--radius-md);
+      padding: 1.1rem 1.4rem;
+      color: #991b1b;
+      font-size: 0.9rem;
+    }
+
+    .alert-box strong {
+      color: #7f1d1d;
+    }
+
+    /* Results View Area */
+    .results-container {
+      display: none;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .results-header-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.4rem 1.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.06);
+    }
+
+    .results-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .meta-stat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .meta-stat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    .meta-stat-value {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+    }
+
+    /* Transcript Card */
+    .transcript-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+    }
+
+    .transcript-header {
+      padding: 1.1rem 1.4rem;
+      background: #f8fafc;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s ease;
+    }
+
+    .transcript-header:hover {
+      background: #f1f5f9;
+    }
+
+    .transcript-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-main);
+    }
+
+    .transcript-badge {
+      font-size: 0.74rem;
+      background: #e2e8f0;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      color: #334155;
+      font-weight: 600;
+    }
+
+    .transcript-body {
+      padding: 1.4rem;
+      max-height: 300px;
+      overflow-y: auto;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #334155;
+      white-space: pre-wrap;
+      font-family: inherit;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+
+    .filter-btn {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.45rem 1rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+    }
+
+    .filter-btn:hover {
+      background: #f8fafc;
+      color: var(--text-main);
+      border-color: #cbd5e1;
+      transform: translateY(-1px);
+    }
+
+    .filter-btn.active {
+      background: #4f46e5;
+      border-color: #4f46e5;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(79, 70, 229, 0.35);
+    }
+
+    /* Moment Cards Grid */
+    .moments-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+    }
+
+    .moment-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+      position: relative;
+      transition: all 0.25s ease;
+    }
+
+    .moment-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08);
+    }
+
+    .moment-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-bottom: 1.15rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    .moment-badges {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .badge-linkedin {
+      background: #e0e7ff;
+      border: 1px solid #c7d2fe;
+      color: #2563eb;
+    }
+
+    .badge-youtube_shorts {
+      background: #fee2e2;
+      border: 1px solid #fecaca;
+      color: #dc2626;
+    }
+
+    .badge-instagram {
+      background: #fce7f3;
+      border: 1px solid #fbcfe8;
+      color: #db2777;
+    }
+
+    .badge-twitter {
+      background: #e0f2fe;
+      border: 1px solid #bae6fd;
+      color: #0284c7;
+    }
+
+    .badge-format {
+      background: #f1f5f9;
+      border: 1px solid var(--border);
+      color: #334155;
+    }
+
+    .badge-time {
+      background: #f1f5f9;
+      border: 1px solid var(--border);
+      color: #475569;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+    }
+
+    .badge-review {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      color: #b45309;
+    }
+
+    .badge-unverified {
+      background: #f1f5f9;
+      border: 1px solid var(--border);
+      color: #64748b;
+    }
+
+    /* Content Blocks */
+    .moment-section {
+      margin-bottom: 1.15rem;
+    }
+
+    .moment-label {
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-dim);
+      margin-bottom: 0.45rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .copy-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      color: #334155;
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-sm);
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+      border-color: #94a3b8;
+      transform: translateY(-1px);
+    }
+
+    .excerpt-box {
+      background: #f8fafc;
+      border-left: 3px solid #6366f1;
+      padding: 0.85rem 1.15rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 0.88rem;
+      color: #334155;
+      font-style: italic;
+      line-height: 1.6;
+    }
+
+    .hook-box {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #1e1b4b;
+      background: #f5f3ff;
+      padding: 0.9rem 1.15rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid #ddd6fe;
+      line-height: 1.5;
+    }
+
+    .content-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1.15rem;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #0f172a;
+      white-space: pre-wrap;
+    }
+
+    .cta-row {
+      margin-top: 0.85rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .hashtags-row {
+      margin-top: 0.6rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .hashtag-tag {
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: #4338ca;
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+    }
+
+    /* Modal for Recent Jobs */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(6px);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .modal-content {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      max-width: 680px;
+      width: 100%;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.15);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      padding: 1.15rem 1.4rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 1.4rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-sm);
+      transition: color 0.15s ease;
+    }
+
+    .modal-close:hover {
+      color: var(--text-main);
+      background: #f1f5f9;
+    }
+
+    .modal-body {
+      padding: 1.4rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .job-item {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 0.95rem 1.15rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .job-item:hover {
+      border-color: #4f46e5;
+      background: #f1f5f9;
+      transform: translateY(-1px);
+    }
+
+    .job-item-id {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--text-main);
+    }
+
+    .job-item-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      padding: 1.75rem;
+      border-top: 1px solid var(--border);
+      margin-top: auto;
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header>
+    <a href="/" class="brand">
+      <div class="brand-logo">IB</div>
+      <div>
+        <div class="brand-title">IncuBrix Content Engine</div>
+      </div>
+    </a>
+    <div class="header-actions">
+      <div class="status-pill" id="config-status-pill" title="AI Content Engine Status">
+        <span class="status-dot" id="config-status-dot"></span>
+        <span id="config-status-text">AI Content Engine Ready</span>
+      </div>
+      <button class="btn-secondary" id="open-history-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        Recent Jobs
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main>
+    <div class="page-intro">
+      <h1>Multi-Format Content Repurposing Studio</h1>
+      <p>Upload a long-form video (MP4) or long blog / article (TXT, MD, DOCX, PDF), select your target platforms and formats, and let IncuBrix draft tailored platform content.</p>
+    </div>
+
+    <!-- Main Generation Setup Panel -->
+    <div class="panel-card" id="upload-panel">
+
+      <!-- Input Type Selection Tabs (Phase 4.4B) -->
+      <div class="input-type-tabs">
+        <button type="button" class="input-type-tab active" id="tab-video" data-input-type="video">
+          <div class="tab-icon">🎬</div>
+          <div class="tab-text">
+            <span class="tab-title">Long-Form Video</span>
+            <span class="tab-subtitle">MP4 with audio track • Max 100 MB</span>
+          </div>
+        </button>
+        <button type="button" class="input-type-tab" id="tab-blog" data-input-type="blog">
+          <div class="tab-icon">📄</div>
+          <div class="tab-text">
+            <span class="tab-title">Blog / Article</span>
+            <span class="tab-subtitle">TXT, Markdown, Word (.docx), PDF • Max 10 MB</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Section 1: File Selection -->
+      <div>
+        <div class="panel-section-title">
+          <span id="section-1-title">1. Select Long-Form Video</span>
+        </div>
+        <div class="dropzone" id="dropzone">
+          <input type="file" id="video-file-input" accept="video/mp4,.mp4">
+          <div class="dropzone-icon" id="dropzone-icon">🎬</div>
+          <div class="dropzone-title" id="dropzone-title">Click to upload or drag & drop video</div>
+          <div class="dropzone-subtitle" id="dropzone-subtitle">MP4 video format with audio track</div>
+          <div class="dropzone-limits" id="dropzone-limits">
+            <span>Max size: 100 MB</span>
+            <span>&bull;</span>
+            <span>Max duration: 10 minutes</span>
+            <span>&bull;</span>
+            <span>Mono 16 kHz WAV</span>
+          </div>
+        </div>
+
+        <div class="selected-file-box" id="selected-file-box">
+          <div class="selected-file-info">
+            <div class="selected-file-icon" id="selected-file-icon">🎬</div>
+            <div class="selected-file-details">
+              <div class="selected-file-name" id="file-name-display">video.mp4</div>
+              <div class="selected-file-size" id="file-size-display">0.0 MB</div>
+            </div>
+          </div>
+          <div class="selected-file-actions">
+            <button class="btn-secondary" id="replace-file-btn">Change</button>
+            <button class="btn-secondary" id="clear-file-btn">Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Platform Selection (Phase 4.4A) -->
+      <div class="platform-section">
+        <div class="platform-header-row">
+          <div class="panel-section-title" style="margin-bottom: 0;">
+            <span>2. Target Platforms</span>
+            <span class="brand-badge" id="platform-count-badge" style="margin-left: 0.5rem;">4 of 4 selected</span>
+          </div>
+          <div class="platform-actions-group">
+            <button class="btn-tiny" id="select-all-platforms-btn">Select All</button>
+            <button class="btn-tiny" id="clear-all-platforms-btn">Clear All</button>
+          </div>
+        </div>
+
+        <div class="platform-grid">
+          <!-- YouTube Shorts Card -->
+          <div class="platform-card selected" data-platform="youtube_shorts">
+            <div class="platform-card-top">
+              <div class="platform-icon-wrap icon-youtube">&#9654;</div>
+              <div class="platform-checkbox">&#10003;</div>
+            </div>
+            <div class="platform-card-name">YouTube Shorts</div>
+            <div class="platform-card-desc">Short vertical video clips, hooks, and timestamps</div>
+          </div>
+
+          <!-- Instagram Card -->
+          <div class="platform-card selected" data-platform="instagram">
+            <div class="platform-card-top">
+              <div class="platform-icon-wrap icon-instagram">&#128247;</div>
+              <div class="platform-checkbox">&#10003;</div>
+            </div>
+            <div class="platform-card-name">Instagram</div>
+            <div class="platform-card-desc">Reels scripts, carousel outlines, and caption copy</div>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="platform-card selected" data-platform="linkedin">
+            <div class="platform-card-top">
+              <div class="platform-icon-wrap icon-linkedin">in</div>
+              <div class="platform-checkbox">&#10003;</div>
+            </div>
+            <div class="platform-card-name">LinkedIn</div>
+            <div class="platform-card-desc">Thought leadership text posts and talking-point scripts</div>
+          </div>
+
+          <!-- X (Twitter) Card -->
+          <div class="platform-card selected" data-platform="twitter">
+            <div class="platform-card-top">
+              <div class="platform-icon-wrap icon-twitter">&#120143;</div>
+              <div class="platform-checkbox">&#10003;</div>
+            </div>
+            <div class="platform-card-name">X (Twitter)</div>
+            <div class="platform-card-desc">Punchy standalone posts and multi-tweet threads</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Format Selection (Phase 4.4A) -->
+      <div class="format-section">
+        <div class="panel-section-title">
+          <span>3. Format Preferences</span>
+        </div>
+
+        <div class="format-mode-selector">
+          <label class="mode-radio-label active" id="mode-all-label">
+            <input type="radio" name="format_mode" id="mode-all-radio" value="all" checked>
+            <span>All suitable formats for selected platforms</span>
+          </label>
+          <label class="mode-radio-label" id="mode-custom-label">
+            <input type="radio" name="format_mode" id="mode-custom-radio" value="custom">
+            <span>Custom format selection</span>
+          </label>
+        </div>
+
+        <div class="format-groups-list" id="format-groups-list">
+          <!-- Dynamically populated per selected platform -->
+        </div>
+      </div>
+
+      <!-- Section 4: Selection Summary & Action Bar -->
+      <div class="selection-summary-bar">
+        <div class="summary-text" id="selection-summary-text">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span id="summary-content-span">Selected: 4 Platforms &bull; 9 Formats</span>
+        </div>
+      </div>
+
+      <div class="action-row">
+        <button class="btn-primary" id="generate-btn" disabled>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+          </svg>
+          <span id="generate-btn-text">Generate Platform Content</span>
+        </button>
+      </div>
+
+      <!-- Client Validation Alert -->
+      <div class="alert-box" id="upload-alert-box">
+        <strong id="upload-alert-title">Validation Error:</strong>
+        <span id="upload-alert-msg"></span>
+      </div>
+    </div>
+
+    <!-- Section C: Verifiable Progress & Stepper Area -->
+    <div class="stepper-container" id="stepper-container">
+      <div class="stepper-header">
+        <div class="stepper-title">
+          <span class="step-spinner" id="main-spinner"></span>
+          <span>Processing Video Job</span>
+          <span class="brand-badge" id="active-job-id-badge">job_id</span>
+        </div>
+        <div class="stepper-timer" id="stepper-timer">00:00</div>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1: Upload -->
+        <div class="step-box" id="step-1">
+          <div class="step-top">
+            <span class="step-number">Stage 1</span>
+            <span class="step-icon" id="step-1-icon">&#9675;</span>
+          </div>
+          <div class="step-name" id="step-1-name">Video Streaming</div>
+          <div class="step-desc" id="step-1-desc">Uploading to job workspace</div>
+        </div>
+
+        <!-- Step 2: Validation -->
+        <div class="step-box" id="step-2">
+          <div class="step-top">
+            <span class="step-number">Stage 2</span>
+            <span class="step-icon" id="step-2-icon">&#9675;</span>
+          </div>
+          <div class="step-name" id="step-2-name">Container Check</div>
+          <div class="step-desc" id="step-2-desc">Probing codecs & streams</div>
+        </div>
+
+        <!-- Step 3: Audio Extraction -->
+        <div class="step-box" id="step-3">
+          <div class="step-top">
+            <span class="step-number">Stage 3</span>
+            <span class="step-icon" id="step-3-icon">&#9675;</span>
+          </div>
+          <div class="step-name" id="step-3-name">Audio Extraction</div>
+          <div class="step-desc" id="step-3-desc">Extracting 16 kHz mono WAV</div>
+        </div>
+
+        <!-- Step 4: AI Analysis -->
+        <div class="step-box" id="step-4">
+          <div class="step-top">
+            <span class="step-number">Stage 4</span>
+            <span class="step-icon" id="step-4-icon">&#9675;</span>
+          </div>
+          <div class="step-name" id="step-4-name">Gemini Repurposing</div>
+          <div class="step-desc" id="step-4-desc">Transcription & platform drafts</div>
+        </div>
+      </div>
+
+      <div class="live-status-message">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span id="live-status-text">Initializing processing job...</span>
+      </div>
+
+      <div class="alert-box" id="job-error-box">
+        <strong>Processing Failed:</strong>
+        <span id="job-error-text"></span>
+        <div style="margin-top: 0.5rem;">
+          <button class="btn-secondary" id="job-retry-dismiss-btn">Dismiss & Return</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section D: Results Viewer -->
+    <div class="results-container" id="results-container">
+      <!-- Results Overview Header Card -->
+      <div class="results-header-card">
+        <div class="results-meta">
+          <div class="meta-stat">
+            <span class="meta-stat-label" id="res-stat1-label">Source Duration</span>
+            <span class="meta-stat-value" id="res-duration">0m 00s</span>
+          </div>
+          <div class="meta-stat">
+            <span class="meta-stat-label" id="res-stat2-label">Transcript Words</span>
+            <span class="meta-stat-value" id="res-words">0</span>
+          </div>
+          <div class="meta-stat">
+            <span class="meta-stat-label" id="res-stat3-label">Generated Moments</span>
+            <span class="meta-stat-value" id="res-moments-count">0</span>
+          </div>
+          <div class="meta-stat">
+            <span class="meta-stat-label">Target Platforms</span>
+            <span class="meta-stat-value" id="res-platforms-count">0</span>
+          </div>
+          <div class="meta-stat">
+            <span class="meta-stat-label">Model Used</span>
+            <span class="meta-stat-value" id="res-model">Gemini</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn-secondary" id="export-json-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Export JSON
+          </button>
+          <button class="btn-secondary" id="export-markdown-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            Export Markdown
+          </button>
+          <button class="btn-secondary" id="upload-another-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            New Generation
+          </button>
+        </div>
+      </div>
+
+      <!-- Collapsible Full Verbatim Transcript / Source Content -->
+      <div class="transcript-card">
+        <div class="transcript-header" id="toggle-transcript-btn">
+          <div class="transcript-title">
+            <span id="source-preview-icon">🎙</span>
+            <span id="source-preview-title">Full Verbatim Speech Transcript</span>
+            <span class="transcript-badge" id="transcript-char-count">0 chars</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <button class="copy-btn" id="copy-full-transcript-btn" onclick="event.stopPropagation();">
+              Copy Content
+            </button>
+            <span id="transcript-toggle-icon">&#9660;</span>
+          </div>
+        </div>
+        <div class="transcript-body" id="transcript-body-content">
+          <div id="doc-headings-container" style="display: none; margin-bottom: 0.85rem;">
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-dim); margin-bottom: 0.35rem; font-weight: 600;">Discovered Section Headings:</div>
+            <div class="headings-pills-row" id="doc-headings-pills"></div>
+          </div>
+          <div id="source-text-display">Loading content...</div>
+        </div>
+      </div>
+
+      <!-- Platform Filter Tabs -->
+      <div class="filter-bar" id="platform-filters">
+        <button class="filter-btn active" data-filter="all">All Results (<span id="count-all">0</span>)</button>
+        <button class="filter-btn" data-filter="youtube_shorts">YouTube Shorts (<span id="count-shorts">0</span>)</button>
+        <button class="filter-btn" data-filter="instagram">Instagram (<span id="count-instagram">0</span>)</button>
+        <button class="filter-btn" data-filter="linkedin">LinkedIn (<span id="count-linkedin">0</span>)</button>
+        <button class="filter-btn" data-filter="twitter">X (Twitter) (<span id="count-twitter">0</span>)</button>
+      </div>
+
+      <!-- Candidate Moments Cards Grid -->
+      <div class="moments-grid" id="moments-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal for Recent Jobs History -->
+  <div class="modal-backdrop" id="history-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title">Recent Video Repurposing Jobs</div>
+        <button class="modal-close" id="close-history-btn">&times;</button>
+      </div>
+      <div class="modal-body" id="history-job-list">
+        <div style="text-align: center; color: var(--text-dim); padding: 1.5rem;">Loading jobs...</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 IncuBrix Private Limited. All rights reserved. &bull; CreatorOps &amp; Social Media Content Engine
+  </footer>
+
+  <script>
+    // Platform & Format Catalog (Phase 4.4A)
+    const PLATFORM_CATALOG = {
+      youtube_shorts: {
+        label: "YouTube Shorts",
+        formats: {
+          short_video: { label: "Short video clips", desc: "15-60s script with timestamps and spoken hook" },
+          captions_and_hooks: { label: "Captions and hooks", desc: "Catchy title hooks and description captions" }
+        }
+      },
+      instagram: {
+        label: "Instagram",
+        formats: {
+          reels: { label: "Reels", desc: "Short vertical video script with hook and visual cues" },
+          carousel: { label: "Carousels", desc: "Multi-slide swipeable card breakdown with cover hook" },
+          captions_and_hashtags: { label: "Captions and hashtags", desc: "Caption copy paired with high-intent hashtags" }
+        }
+      },
+      linkedin: {
+        label: "LinkedIn",
+        formats: {
+          text_post: { label: "Text posts", desc: "Long-form thought leadership post with formatting" },
+          video_post: { label: "Video posts", desc: "Talking-point script optimized for native video" }
+        }
+      },
+      twitter: {
+        label: "X (Twitter)",
+        formats: {
+          single_post: { label: "Single posts", desc: "Punchy standalone post under 280 characters with CTA" },
+          thread: { label: "Threads", desc: "Multi-tweet breakdown thread of core insight" }
+        }
+      }
+    };
+
+    // State
+    let currentInputType = 'video'; // 'video' or 'blog'
+    let selectedFile = null;
+    let activeJobId = null;
+    let pollInterval = null;
+    let startTime = null;
+    let timerInterval = null;
+    let currentJobResult = null;
+    let activeFilter = 'all';
+
+    let selectedPlatforms = ["youtube_shorts", "instagram", "linkedin", "twitter"];
+    let formatMode = "all"; // 'all' or 'custom'
+    let customSelectedFormats = {
+      youtube_shorts: ["short_video", "captions_and_hooks"],
+      instagram: ["reels", "carousel", "captions_and_hashtags"],
+      linkedin: ["text_post", "video_post"],
+      twitter: ["single_post", "thread"]
+    };
+
+    // DOM Elements - Input Type & Dropzone (Phase 4.4B)
+    const tabVideo = document.getElementById('tab-video');
+    const tabBlog = document.getElementById('tab-blog');
+    const section1Title = document.getElementById('section-1-title');
+    const dropzone = document.getElementById('dropzone');
+    const dropzoneIcon = document.getElementById('dropzone-icon');
+    const dropzoneTitle = document.getElementById('dropzone-title');
+    const dropzoneSubtitle = document.getElementById('dropzone-subtitle');
+    const dropzoneLimits = document.getElementById('dropzone-limits');
+    const fileInput = document.getElementById('video-file-input');
+    const selectedFileBox = document.getElementById('selected-file-box');
+    const selectedFileIcon = document.getElementById('selected-file-icon');
+    const fileNameDisplay = document.getElementById('file-name-display');
+    const fileSizeDisplay = document.getElementById('file-size-display');
+    const replaceFileBtn = document.getElementById('replace-file-btn');
+    const clearFileBtn = document.getElementById('clear-file-btn');
+    const generateBtn = document.getElementById('generate-btn');
+    const generateBtnText = document.getElementById('generate-btn-text');
+    const uploadAlertBox = document.getElementById('upload-alert-box');
+    const uploadAlertMsg = document.getElementById('upload-alert-msg');
+
+    const selectAllPlatformsBtn = document.getElementById('select-all-platforms-btn');
+    const clearAllPlatformsBtn = document.getElementById('clear-all-platforms-btn');
+    const platformCountBadge = document.getElementById('platform-count-badge');
+    const platformCards = document.querySelectorAll('.platform-card');
+    const formatGroupsList = document.getElementById('format-groups-list');
+    const modeAllRadio = document.getElementById('mode-all-radio');
+    const modeCustomRadio = document.getElementById('mode-custom-radio');
+    const modeAllLabel = document.getElementById('mode-all-label');
+    const modeCustomLabel = document.getElementById('mode-custom-label');
+    const selectionSummaryText = document.getElementById('selection-summary-text');
+    const summaryContentSpan = document.getElementById('summary-content-span');
+
+    const uploadPanel = document.getElementById('upload-panel');
+    const stepperContainer = document.getElementById('stepper-container');
+    const stepperTimer = document.getElementById('stepper-timer');
+    const liveStatusText = document.getElementById('live-status-text');
+    const activeJobIdBadge = document.getElementById('active-job-id-badge');
+    const jobErrorBox = document.getElementById('job-error-box');
+    const jobErrorText = document.getElementById('job-error-text');
+    const jobRetryDismissBtn = document.getElementById('job-retry-dismiss-btn');
+
+    const resultsContainer = document.getElementById('results-container');
+    const resStat1Label = document.getElementById('res-stat1-label');
+    const resStat2Label = document.getElementById('res-stat2-label');
+    const resStat3Label = document.getElementById('res-stat3-label');
+    const resDuration = document.getElementById('res-duration');
+    const resWords = document.getElementById('res-words');
+    const resMomentsCount = document.getElementById('res-moments-count');
+    const resPlatformsCount = document.getElementById('res-platforms-count');
+    const resModel = document.getElementById('res-model');
+    const exportJsonBtn = document.getElementById('export-json-btn');
+    const exportMarkdownBtn = document.getElementById('export-markdown-btn');
+    const sourcePreviewIcon = document.getElementById('source-preview-icon');
+    const sourcePreviewTitle = document.getElementById('source-preview-title');
+    const sourcePreviewBadge = document.getElementById('source-preview-badge');
+    const docHeadingsContainer = document.getElementById('doc-headings-container');
+    const docHeadingsPills = document.getElementById('doc-headings-pills');
+    const sourceTextDisplay = document.getElementById('source-text-display');
+    const transcriptBodyContent = document.getElementById('transcript-body-content');
+    const transcriptCharCount = document.getElementById('transcript-char-count');
+    const toggleTranscriptBtn = document.getElementById('toggle-transcript-btn');
+    const transcriptToggleIcon = document.getElementById('transcript-toggle-icon');
+    const copyFullTranscriptBtn = document.getElementById('copy-full-transcript-btn');
+    const uploadAnotherBtn = document.getElementById('upload-another-btn');
+    const momentsGrid = document.getElementById('moments-grid');
+
+    const historyModal = document.getElementById('history-modal');
+    const openHistoryBtn = document.getElementById('open-history-btn');
+    const closeHistoryBtn = document.getElementById('close-history-btn');
+    const historyJobList = document.getElementById('history-job-list');
+
+    // Input Mode Switching (Phase 4.4B)
+    function switchInputType(type) {
+      currentInputType = type;
+      if (type === 'video') {
+        tabVideo.classList.add('active');
+        tabBlog.classList.remove('active');
+        section1Title.textContent = '1. Select Long-Form Video';
+        dropzoneIcon.textContent = '🎬';
+        dropzoneTitle.textContent = 'Click to upload or drag & drop video';
+        dropzoneSubtitle.textContent = 'MP4 video format with audio track';
+        dropzoneLimits.innerHTML = '<span>Max size: 100 MB</span><span>&bull;</span><span>Max duration: 10 minutes</span><span>&bull;</span><span>Mono 16 kHz WAV</span>';
+        fileInput.setAttribute('accept', 'video/mp4,.mp4');
+        selectedFileIcon.textContent = '🎬';
+        updateStepNamesForType('video');
+      } else {
+        tabBlog.classList.add('active');
+        tabVideo.classList.remove('active');
+        section1Title.textContent = '1. Select Blog / Article Document';
+        dropzoneIcon.textContent = '📄';
+        dropzoneTitle.textContent = 'Click to upload or drag & drop blog or article';
+        dropzoneSubtitle.textContent = 'TXT, Markdown (.md), Word (.docx), or PDF (.pdf)';
+        dropzoneLimits.innerHTML = '<span>Max size: 10 MB</span><span>&bull;</span><span>Structured headings & sections</span><span>&bull;</span><span>UTF-8 & selectable text</span>';
+        fileInput.setAttribute('accept', '.txt,.md,.docx,.pdf,text/plain,text/markdown,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf');
+        selectedFileIcon.textContent = '📄';
+        updateStepNamesForType('blog');
+      }
+      clearSelectedFile();
+    }
+
+    if (tabVideo) tabVideo.addEventListener('click', () => switchInputType('video'));
+    if (tabBlog) tabBlog.addEventListener('click', () => switchInputType('blog'));
+
+    function updateStepNamesForType(type) {
+      const s1n = document.getElementById('step-1-name');
+      const s1d = document.getElementById('step-1-desc');
+      const s2n = document.getElementById('step-2-name');
+      const s2d = document.getElementById('step-2-desc');
+      const s3n = document.getElementById('step-3-name');
+      const s3d = document.getElementById('step-3-desc');
+      const s4n = document.getElementById('step-4-name');
+      const s4d = document.getElementById('step-4-desc');
+      if (type === 'blog') {
+        if (s1n) s1n.textContent = 'Document Streaming';
+        if (s1d) s1d.textContent = 'Uploading to job workspace';
+        if (s2n) s2n.textContent = 'Structure Extraction';
+        if (s2d) s2d.textContent = 'Extracting headings & sections';
+        if (s3n) s3n.textContent = 'Content Analysis';
+        if (s3d) s3d.textContent = 'Normalizing text & paragraphs';
+        if (s4n) s4n.textContent = 'Gemini Repurposing';
+        if (s4d) s4d.textContent = 'Generating 10+ platform drafts';
+      } else {
+        if (s1n) s1n.textContent = 'Video Streaming';
+        if (s1d) s1d.textContent = 'Uploading to job workspace';
+        if (s2n) s2n.textContent = 'Container Check';
+        if (s2d) s2d.textContent = 'Probing codecs & streams';
+        if (s3n) s3n.textContent = 'Audio Extraction';
+        if (s3d) s3d.textContent = 'Extracting 16 kHz mono WAV';
+        if (s4n) s4n.textContent = 'Gemini Repurposing';
+        if (s4d) s4d.textContent = 'Transcription & platform drafts';
+      }
+    }
+
+    // Config Check on Load
+    async function checkServerConfig() {
+      try {
+        const resp = await fetch('/api/config-status');
+        if (resp.ok) {
+          const cfg = await resp.json();
+          const dot = document.getElementById('config-status-dot');
+          const txt = document.getElementById('config-status-text');
+          dot.className = 'status-dot';
+          txt.textContent = 'AI Content Engine Ready';
+          txt.title = `Mode: ${cfg.generation_mode} • Model: ${cfg.active_model}`;
+        }
+      } catch (e) {
+        console.error('Config fetch failed:', e);
+      }
+    }
+    checkServerConfig();
+
+    // =========================================================================
+    // Platform & Format Selection Logic (Phase 4.4A)
+    // =========================================================================
+
+    function updatePlatformCardsUI() {
+      platformCards.forEach(card => {
+        const pKey = card.dataset.platform;
+        const isSelected = selectedPlatforms.includes(pKey);
+        if (isSelected) {
+          card.classList.add('selected');
+          card.querySelector('.platform-checkbox').innerHTML = '&#10003;';
+        } else {
+          card.classList.remove('selected');
+          card.querySelector('.platform-checkbox').innerHTML = '';
+        }
+      });
+      platformCountBadge.textContent = `${selectedPlatforms.length} of ${Object.keys(PLATFORM_CATALOG).length} selected`;
+      renderFormatOptionsUI();
+      updateSelectionSummary();
+    }
+
+    function renderFormatOptionsUI() {
+      formatGroupsList.innerHTML = '';
+
+      if (selectedPlatforms.length === 0) {
+        formatGroupsList.innerHTML = `
+          <div style="text-align: center; color: var(--text-dim); padding: 1rem; font-size: 0.82rem;">
+            No platforms selected. Select at least one platform above to configure formats.
+          </div>`;
+        return;
+      }
+
+      selectedPlatforms.forEach(pKey => {
+        const pMeta = PLATFORM_CATALOG[pKey];
+        if (!pMeta) return;
+
+        const block = document.createElement('div');
+        block.className = 'format-platform-block';
+
+        let chipsHtml = '';
+        const isCustom = (formatMode === 'custom');
+
+        Object.entries(pMeta.formats).forEach(([fKey, fMeta]) => {
+          const isFmtChecked = isCustom
+            ? (customSelectedFormats[pKey] || []).includes(fKey)
+            : true;
+
+          chipsHtml += `
+            <label class="format-chip ${isFmtChecked ? 'selected' : ''}">
+              <input type="checkbox"
+                     data-platform="${pKey}"
+                     data-format="${fKey}"
+                     ${isFmtChecked ? 'checked' : ''}
+                     ${!isCustom ? 'disabled' : ''}
+                     class="format-checkbox">
+              <div class="format-chip-content">
+                <span class="format-chip-label">${escapeHtml(fMeta.label)}</span>
+                <span class="format-chip-desc">${escapeHtml(fMeta.desc)}</span>
+              </div>
+            </label>
+          `;
+        });
+
+        block.innerHTML = `
+          <div class="format-platform-title">
+            <span>${escapeHtml(pMeta.label)} Formats</span>
+          </div>
+          <div class="format-chips-grid">
+            ${chipsHtml}
+          </div>
+        `;
+
+        formatGroupsList.appendChild(block);
+      });
+
+      // Bind checkbox listeners for custom mode
+      if (formatMode === 'custom') {
+        document.querySelectorAll('.format-checkbox').forEach(cb => {
+          cb.addEventListener('change', (e) => {
+            const pKey = e.target.dataset.platform;
+            const fKey = e.target.dataset.format;
+            if (!customSelectedFormats[pKey]) customSelectedFormats[pKey] = [];
+
+            if (e.target.checked) {
+              if (!customSelectedFormats[pKey].includes(fKey)) {
+                customSelectedFormats[pKey].push(fKey);
+              }
+              e.target.closest('.format-chip').classList.add('selected');
+            } else {
+              customSelectedFormats[pKey] = customSelectedFormats[pKey].filter(k => k !== fKey);
+              e.target.closest('.format-chip').classList.remove('selected');
+            }
+            updateSelectionSummary();
+          });
+        });
+      }
+    }
+
+    function getTotalSelectedFormats() {
+      let count = 0;
+      selectedPlatforms.forEach(p => {
+        if (formatMode === 'all') {
+          count += Object.keys(PLATFORM_CATALOG[p].formats).length;
+        } else {
+          count += (customSelectedFormats[p] || []).length;
+        }
+      });
+      return count;
+    }
+
+    function updateSelectionSummary() {
+      const platCount = selectedPlatforms.length;
+      const fmtCount = getTotalSelectedFormats();
+
+      if (platCount === 0) {
+        selectionSummaryText.className = 'summary-text warning';
+        summaryContentSpan.innerHTML = '<strong>Notice:</strong> Please select at least one target platform.';
+      } else if (fmtCount === 0) {
+        selectionSummaryText.className = 'summary-text warning';
+        summaryContentSpan.innerHTML = '<strong>Notice:</strong> Please select at least one format for your chosen platforms.';
+      } else {
+        const platNames = selectedPlatforms.map(p => PLATFORM_CATALOG[p].label).join(', ');
+        selectionSummaryText.className = 'summary-text';
+        summaryContentSpan.innerHTML = `<strong>Ready:</strong> ${platCount} Platform${platCount > 1 ? 's' : ''} (${platNames}) &bull; ${fmtCount} Format${fmtCount > 1 ? 's' : ''}`;
+      }
+
+      // Check whether generate button can be enabled
+      const canGenerate = (selectedFile != null) && (platCount > 0) && (fmtCount > 0);
+      generateBtn.disabled = !canGenerate;
+    }
+
+    // Platform card click listeners
+    platformCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const pKey = card.dataset.platform;
+        if (selectedPlatforms.includes(pKey)) {
+          selectedPlatforms = selectedPlatforms.filter(p => p !== pKey);
+        } else {
+          selectedPlatforms.push(pKey);
+        }
+        updatePlatformCardsUI();
+      });
+    });
+
+    // Select All / Clear All
+    selectAllPlatformsBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      selectedPlatforms = Object.keys(PLATFORM_CATALOG);
+      // Ensure custom formats are initialized for all
+      Object.keys(PLATFORM_CATALOG).forEach(p => {
+        if (!customSelectedFormats[p] || customSelectedFormats[p].length === 0) {
+          customSelectedFormats[p] = Object.keys(PLATFORM_CATALOG[p].formats);
+        }
+      });
+      updatePlatformCardsUI();
+    });
+
+    clearAllPlatformsBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      selectedPlatforms = [];
+      updatePlatformCardsUI();
+    });
+
+    // Format mode toggles
+    modeAllRadio.addEventListener('change', () => {
+      if (modeAllRadio.checked) {
+        formatMode = 'all';
+        modeAllLabel.classList.add('active');
+        modeCustomLabel.classList.remove('active');
+        renderFormatOptionsUI();
+        updateSelectionSummary();
+      }
+    });
+
+    modeCustomRadio.addEventListener('change', () => {
+      if (modeCustomRadio.checked) {
+        formatMode = 'custom';
+        modeCustomLabel.classList.add('active');
+        modeAllLabel.classList.remove('active');
+        // Initialize defaults if empty
+        selectedPlatforms.forEach(p => {
+          if (!customSelectedFormats[p] || customSelectedFormats[p].length === 0) {
+            customSelectedFormats[p] = Object.keys(PLATFORM_CATALOG[p].formats);
+          }
+        });
+        renderFormatOptionsUI();
+        updateSelectionSummary();
+      }
+    });
+
+    // Initialize UI
+    updatePlatformCardsUI();
+
+    // =========================================================================
+    // File Upload & Drag-and-Drop
+    // =========================================================================
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropzone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropzone.classList.add('dragover');
+      });
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropzone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dropzone.classList.remove('dragover');
+      });
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      const files = e.dataTransfer.files;
+      if (files && files.length > 0) {
+        handleFileSelect(files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (fileInput.files && fileInput.files.length > 0) {
+        handleFileSelect(fileInput.files[0]);
+      }
+    });
+
+    replaceFileBtn.addEventListener('click', () => {
+      fileInput.value = '';
+      fileInput.click();
+    });
+
+    clearFileBtn.addEventListener('click', () => {
+      clearSelectedFile();
+    });
+
+    function showUploadAlert(msg) {
+      uploadAlertMsg.textContent = msg;
+      uploadAlertBox.style.display = 'block';
+    }
+
+    function hideUploadAlert() {
+      uploadAlertBox.style.display = 'none';
+      uploadAlertMsg.textContent = '';
+    }
+
+    function formatBytes(bytes) {
+      if (bytes === 0) return '0 Bytes';
+      const k = 1024;
+      const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+      const i = Math.floor(Math.log(bytes) / Math.log(k));
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+
+    function handleFileSelect(file) {
+      hideUploadAlert();
+
+      const lowerName = file.name.toLowerCase();
+      const isDoc = ['.txt', '.md', '.docx', '.pdf'].some(ext => lowerName.endsWith(ext));
+      const isVideo = lowerName.endsWith('.mp4');
+
+      if (currentInputType === 'video') {
+        if (isDoc) {
+          switchInputType('blog');
+          // continue selection in blog mode
+        } else if (!isVideo) {
+          showUploadAlert('Invalid file format. Only .mp4 video files are accepted for video upload.');
+          clearSelectedFile();
+          return;
+        } else if (file.size > 100 * 1024 * 1024) {
+          showUploadAlert(`File size (${formatBytes(file.size)}) exceeds the 100 MB video limit.`);
+          clearSelectedFile();
+          return;
+        }
+      } else { // blog mode
+        if (isVideo) {
+          switchInputType('video');
+          // continue selection in video mode
+        } else if (!isDoc) {
+          showUploadAlert('Unsupported document format. Only .txt, .md, .docx, and .pdf documents are supported.');
+          clearSelectedFile();
+          return;
+        } else if (file.size > 10 * 1024 * 1024) {
+          showUploadAlert(`Document size (${formatBytes(file.size)}) exceeds the 10 MB limit.`);
+          clearSelectedFile();
+          return;
+        }
+      }
+
+      if (file.size === 0) {
+        showUploadAlert('File is empty (0 bytes).');
+        clearSelectedFile();
+        return;
+      }
+
+      selectedFile = file;
+      fileNameDisplay.textContent = file.name;
+      fileSizeDisplay.textContent = formatBytes(file.size);
+      selectedFileIcon.textContent = currentInputType === 'video' ? '🎬' : '📄';
+      dropzone.style.display = 'none';
+      selectedFileBox.style.display = 'flex';
+      updateSelectionSummary();
+    }
+
+    function clearSelectedFile() {
+      selectedFile = null;
+      fileInput.value = '';
+      selectedFileBox.style.display = 'none';
+      dropzone.style.display = 'block';
+      updateSelectionSummary();
+      hideUploadAlert();
+    }
+
+    // Step UI update helper
+    function updateStepUI(stepNum, status) {
+      const box = document.getElementById(`step-${stepNum}`);
+      const icon = document.getElementById(`step-${stepNum}-icon`);
+      box.className = 'step-box';
+
+      if (status === 'active') {
+        box.classList.add('active');
+        icon.innerHTML = '<span class="step-spinner"></span>';
+      } else if (status === 'completed') {
+        box.classList.add('completed');
+        icon.innerHTML = '&#10003;';
+        icon.style.color = 'var(--emerald)';
+      } else if (status === 'failed') {
+        box.classList.add('failed');
+        icon.innerHTML = '&#10007;';
+        icon.style.color = 'var(--rose)';
+      } else {
+        icon.innerHTML = '&#9675;';
+        icon.style.color = 'inherit';
+      }
+    }
+
+    function setStageProgress(stage, message) {
+      liveStatusText.textContent = message || 'Processing...';
+
+      if (stage === 'uploading') {
+        updateStepUI(1, 'active');
+        updateStepUI(2, 'pending');
+        updateStepUI(3, 'pending');
+        updateStepUI(4, 'pending');
+      } else if (stage === 'validating') {
+        updateStepUI(1, 'completed');
+        updateStepUI(2, 'active');
+        updateStepUI(3, 'pending');
+        updateStepUI(4, 'pending');
+      } else if (stage === 'extracting_audio' || stage === 'extracting_structure') {
+        updateStepUI(1, 'completed');
+        updateStepUI(2, 'completed');
+        updateStepUI(3, 'active');
+        updateStepUI(4, 'pending');
+      } else if (stage === 'analyzing') {
+        updateStepUI(1, 'completed');
+        updateStepUI(2, 'completed');
+        updateStepUI(3, 'completed');
+        updateStepUI(4, 'active');
+      } else if (stage === 'completed') {
+        updateStepUI(1, 'completed');
+        updateStepUI(2, 'completed');
+        updateStepUI(3, 'completed');
+        updateStepUI(4, 'completed');
+        document.getElementById('main-spinner').style.display = 'none';
+      } else if (stage === 'failed') {
+        document.getElementById('main-spinner').style.display = 'none';
+      }
+    }
+
+    // Timer helper
+    function startTimer() {
+      startTime = Date.now();
+      stepperTimer.textContent = '00:00';
+      if (timerInterval) clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        const elapsedSec = Math.floor((Date.now() - startTime) / 1000);
+        const m = String(Math.floor(elapsedSec / 60)).padStart(2, '0');
+        const s = String(elapsedSec % 60).padStart(2, '0');
+        stepperTimer.textContent = `${m}:${s}`;
+      }, 1000);
+    }
+
+    function stopTimer() {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+      }
+    }
+
+    // =========================================================================
+    // Generation Action & Polling
+    // =========================================================================
+
+    generateBtn.addEventListener('click', async () => {
+      if (!selectedFile || generateBtn.disabled) return;
+      if (selectedPlatforms.length === 0 || getTotalSelectedFormats() === 0) {
+        showUploadAlert('Please select at least one platform and format.');
+        return;
+      }
+
+      // Prevent duplicate submission
+      generateBtn.disabled = true;
+      generateBtnText.textContent = 'Uploading & Starting...';
+      hideUploadAlert();
+      jobErrorBox.style.display = 'none';
+
+      // Switch to Stepper View
+      uploadPanel.style.display = 'none';
+      stepperContainer.style.display = 'block';
+      resultsContainer.style.display = 'none';
+      document.getElementById('main-spinner').style.display = 'inline-block';
+      startTimer();
+      setStageProgress('uploading', 'Streaming video file and platform configuration...');
+
+      // Prepare effective formats
+      const effectiveFormats = {};
+      selectedPlatforms.forEach(p => {
+        if (formatMode === 'all') {
+          effectiveFormats[p] = Object.keys(PLATFORM_CATALOG[p].formats);
+        } else {
+          effectiveFormats[p] = customSelectedFormats[p] || Object.keys(PLATFORM_CATALOG[p].formats);
+        }
+      });
+
+      // Prepare Multipart Upload
+      const formData = new FormData();
+      formData.append('file', selectedFile);
+      formData.append('input_type', currentInputType);
+      formData.append('platforms', JSON.stringify(selectedPlatforms));
+      formData.append('formats', JSON.stringify(effectiveFormats));
+      formData.append('format_mode', formatMode);
+
+      try {
+        const resp = await fetch('/api/jobs', {
+          method: 'POST',
+          body: formData,
+        });
+
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({}));
+          throw new Error(errData.detail || `Upload failed with HTTP ${resp.status}`);
+        }
+
+        const job = await resp.json();
+        activeJobId = job.job_id;
+        activeJobIdBadge.textContent = activeJobId;
+        setStageProgress('validating', 'Video received. Validating container & streams...');
+
+        // Start Polling
+        startPolling(activeJobId);
+
+      } catch (err) {
+        handleJobError(err.message || 'Failed to initiate video processing job.');
+      }
+    });
+
+    function startPolling(jobId) {
+      if (pollInterval) clearInterval(pollInterval);
+      pollInterval = setInterval(async () => {
+        try {
+          const resp = await fetch(`/api/jobs/${jobId}`);
+          if (!resp.ok) {
+            throw new Error(`Polling failed with HTTP ${resp.status}`);
+          }
+          const jobData = await resp.json();
+
+          setStageProgress(jobData.stage, jobData.stage_message);
+
+          if (jobData.status === 'completed') {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            stopTimer();
+            setTimeout(() => {
+              displayResults(jobData.result);
+            }, 800);
+          } else if (jobData.status === 'failed') {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            stopTimer();
+            handleJobError(jobData.error || 'Job processing failed.');
+          }
+        } catch (pollErr) {
+          console.error('Polling error:', pollErr);
+        }
+      }, 1500);
+    }
+
+    function handleJobError(msg) {
+      setStageProgress('failed', 'Error occurred');
+      jobErrorText.textContent = msg;
+      jobErrorBox.style.display = 'block';
+    }
+
+    jobRetryDismissBtn.addEventListener('click', () => {
+      stepperContainer.style.display = 'none';
+      uploadPanel.style.display = 'flex';
+      generateBtn.disabled = false;
+      generateBtnText.textContent = 'Generate Platform Content';
+      stopTimer();
+    });
+
+    uploadAnotherBtn.addEventListener('click', () => {
+      resultsContainer.style.display = 'none';
+      uploadPanel.style.display = 'flex';
+      clearSelectedFile();
+      generateBtn.disabled = true;
+      generateBtnText.textContent = 'Generate Platform Content';
+    });
+
+    // Transcript Toggle
+    let transcriptOpen = true;
+    toggleTranscriptBtn.addEventListener('click', () => {
+      transcriptOpen = !transcriptOpen;
+      transcriptBodyContent.style.display = transcriptOpen ? 'block' : 'none';
+      transcriptToggleIcon.innerHTML = transcriptOpen ? '&#9660;' : '&#9654;';
+    });
+
+    copyFullTranscriptBtn.addEventListener('click', () => {
+      if (!currentJobResult) return;
+      navigator.clipboard.writeText(currentJobResult.full_transcript).then(() => {
+        copyFullTranscriptBtn.textContent = 'Copied!';
+        setTimeout(() => { copyFullTranscriptBtn.textContent = 'Copy Transcript'; }, 2000);
+      });
+    });
+
+    function formatTime(sec) {
+      if (sec == null) return '00:00';
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    // =========================================================================
+    // Display Results & Grouping (Phase 4.4A)
+    // =========================================================================
+
+    function displayResults(result) {
+      currentJobResult = result;
+      stepperContainer.style.display = 'none';
+      resultsContainer.style.display = 'flex';
+
+      // Meta Stats
+      const duration = result.source_duration_seconds || 0;
+      const m = Math.floor(duration / 60);
+      const s = Math.round(duration % 60);
+      resDuration.textContent = `${m}m ${s}s`;
+
+      const words = result.full_transcript ? result.full_transcript.trim().split(/\s+/).length : 0;
+      resWords.textContent = words.toLocaleString();
+
+      const moments = result.moments || [];
+      resMomentsCount.textContent = moments.length;
+
+      const platformsUsed = new Set(moments.map(m => m.intended_platform)).size;
+      resPlatformsCount.textContent = platformsUsed;
+      resModel.textContent = result.model_used || 'gemini-3.5-flash';
+
+      // Full Transcript
+      transcriptBodyContent.textContent = result.full_transcript || '(No transcript generated)';
+      transcriptCharCount.textContent = `${(result.full_transcript || '').length.toLocaleString()} chars`;
+
+      // Filter counts
+      updateFilterCounts(moments);
+
+      // Render moments
+      renderMomentsList(moments, activeFilter);
+    }
+
+    function updateFilterCounts(moments) {
+      const counts = { all: moments.length, linkedin: 0, youtube_shorts: 0, instagram: 0, twitter: 0 };
+      moments.forEach(m => {
+        const plat = (m.intended_platform || '').toLowerCase();
+        if (plat.includes('linkedin')) counts.linkedin++;
+        else if (plat.includes('short')) counts.youtube_shorts++;
+        else if (plat.includes('instagram')) counts.instagram++;
+        else if (plat.includes('twitter') || plat.includes('x')) counts.twitter++;
+      });
+
+      document.getElementById('count-all').textContent = counts.all;
+      document.getElementById('count-linkedin').textContent = counts.linkedin;
+      document.getElementById('count-shorts').textContent = counts.youtube_shorts;
+      document.getElementById('count-instagram').textContent = counts.instagram;
+      document.getElementById('count-twitter').textContent = counts.twitter;
+    }
+
+    // Filter Buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.filter;
+        if (currentJobResult) {
+          renderMomentsList(currentJobResult.moments || [], activeFilter);
+        }
+      });
+    });
+
+    function renderMomentsList(moments, filter) {
+      momentsGrid.innerHTML = '';
+
+      const filtered = moments.filter(m => {
+        if (filter === 'all') return true;
+        const plat = (m.intended_platform || '').toLowerCase();
+        if (filter === 'linkedin') return plat.includes('linkedin');
+        if (filter === 'youtube_shorts') return plat.includes('short');
+        if (filter === 'instagram') return plat.includes('instagram');
+        if (filter === 'twitter') return plat.includes('twitter') || plat.includes('x');
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        momentsGrid.innerHTML = `
+          <div style="background: var(--bg-card); border: 1px dashed var(--border); border-radius: var(--radius-lg); padding: 2rem; text-align: center; color: var(--text-muted);">
+            No candidate moments found for platform: <strong>${filter}</strong>
+          </div>`;
+        return;
+      }
+
+      filtered.forEach((m, idx) => {
+        const card = createMomentCard(m, idx + 1);
+        momentsGrid.appendChild(card);
+      });
+    }
+
+    function createMomentCard(moment, displayIdx) {
+      const card = document.createElement('div');
+      card.className = 'moment-card';
+
+      const plat = (moment.intended_platform || 'linkedin').toLowerCase();
+      let platClass = 'badge-linkedin';
+      let platLabel = 'LinkedIn';
+      if (plat.includes('short')) {
+        platClass = 'badge-youtube_shorts';
+        platLabel = 'YouTube Shorts';
+      } else if (plat.includes('instagram')) {
+        platClass = 'badge-instagram';
+        platLabel = 'Instagram';
+      } else if (plat.includes('twitter') || plat.includes('x')) {
+        platClass = 'badge-twitter';
+        platLabel = 'X (Twitter)';
+      }
+
+      const timeRange = `${formatTime(moment.start_seconds)} - ${formatTime(moment.end_seconds)}`;
+      const durSec = Math.round(moment.duration_seconds || (moment.end_seconds - moment.start_seconds));
+
+      const hookSafe = escapeHtml(moment.suggested_hook || '');
+      const contentSafe = escapeHtml(moment.suggested_content || '');
+      const excerptSafe = escapeHtml(moment.transcript_excerpt || '');
+      const ctaSafe = escapeHtml(moment.suggested_cta || '');
+      const formatLabel = (moment.content_format || 'post').replace(/_/g, ' ');
+
+      let hashtagsHtml = '';
+      if (moment.suggested_hashtags && moment.suggested_hashtags.length > 0) {
+        hashtagsHtml = `
+          <div class="hashtags-row">
+            ${moment.suggested_hashtags.map(t => `<span class="hashtag-tag">#${escapeHtml(t.replace(/^#/, ''))}</span>`).join('')}
+          </div>`;
+      }
+
+      let warningsHtml = '';
+      if (moment.warnings && moment.warnings.length > 0) {
+        warningsHtml = `
+          <div style="margin-top: 0.75rem; background: var(--amber-subtle); border-left: 3px solid var(--amber); padding: 0.5rem 0.75rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.75rem; color: #92400e;">
+            <strong>Safeguard Notice:</strong> ${moment.warnings.map(w => escapeHtml(w)).join('; ')}
+          </div>`;
+      }
+
+      card.innerHTML = `
+        <div class="moment-top-row">
+          <div class="moment-badges">
+            <span class="badge ${platClass}">${platLabel}</span>
+            <span class="badge badge-format">${escapeHtml(formatLabel)}</span>
+            <span class="badge badge-time">&#9201; ${timeRange} (${durSec}s)</span>
+          </div>
+          <div class="moment-badges">
+            <span class="badge badge-review">&#9888; PENDING HUMAN REVIEW</span>
+            <span class="badge badge-unverified">Unverified Factually</span>
+          </div>
+        </div>
+
+        <div class="moment-section">
+          <div class="moment-label">
+            <span>Original Speech Excerpt</span>
+          </div>
+          <div class="excerpt-box">"${excerptSafe}"</div>
+        </div>
+
+        <div class="moment-section">
+          <div class="moment-label">
+            <span>Suggested Hook / Headline</span>
+            <button class="copy-btn copy-hook-btn">Copy Hook</button>
+          </div>
+          <div class="hook-box">${hookSafe}</div>
+        </div>
+
+        <div class="moment-section">
+          <div class="moment-label">
+            <span>Generated Content / Script</span>
+            <button class="copy-btn copy-content-btn">Copy Post</button>
+          </div>
+          <div class="content-box">${contentSafe}</div>
+        </div>
+
+        ${ctaSafe ? `
+          <div class="cta-row">
+            <strong>CTA:</strong> <span>${ctaSafe}</span>
+          </div>` : ''}
+
+        ${hashtagsHtml}
+        ${warningsHtml}
+      `;
+
+      // Copy hook
+      const copyHookBtn = card.querySelector('.copy-hook-btn');
+      copyHookBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(moment.suggested_hook || '').then(() => {
+          copyHookBtn.textContent = 'Copied!';
+          setTimeout(() => { copyHookBtn.textContent = 'Copy Hook'; }, 2000);
+        });
+      });
+
+      // Copy content
+      const copyContentBtn = card.querySelector('.copy-content-btn');
+      copyContentBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(moment.suggested_content || '').then(() => {
+          copyContentBtn.textContent = 'Copied!';
+          setTimeout(() => { copyContentBtn.textContent = 'Copy Post'; }, 2000);
+        });
+      });
+
+      return card;
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // Recent Jobs Modal
+    openHistoryBtn.addEventListener('click', async () => {
+      historyModal.style.display = 'flex';
+      historyJobList.innerHTML = '<div style="text-align: center; color: var(--text-dim); padding: 1.5rem;">Loading jobs...</div>';
+      try {
+        const resp = await fetch('/api/jobs');
+        if (!resp.ok) throw new Error('Failed to fetch job history');
+        const jobs = await resp.json();
+        if (jobs.length === 0) {
+          historyJobList.innerHTML = '<div style="text-align: center; color: var(--text-muted); padding: 1.5rem;">No previous jobs found on disk.</div>';
+          return;
+        }
+
+        historyJobList.innerHTML = '';
+        jobs.forEach(j => {
+          const item = document.createElement('div');
+          item.className = 'job-item';
+          const durStr = j.duration_seconds ? `${Math.round(j.duration_seconds)}s` : 'N/A';
+          const momentCount = j.moments_count != null ? `${j.moments_count} moments` : 'Pending';
+          item.innerHTML = `
+            <div>
+              <div class="job-item-id">${escapeHtml(j.job_id)}</div>
+              <div class="job-item-meta">${escapeHtml(j.created_at || '')} &bull; ${durStr} &bull; ${momentCount}</div>
+            </div>
+            <button class="btn-secondary" style="font-size: 0.75rem;">View Results &rarr;</button>
+          `;
+          item.addEventListener('click', async () => {
+            historyModal.style.display = 'none';
+            // Fetch single job
+            const jobResp = await fetch(`/api/jobs/${j.job_id}`);
+            if (jobResp.ok) {
+              const fullJob = await jobResp.json();
+              if (fullJob.result) {
+                displayResults(fullJob.result);
+              }
+            }
+          });
+          historyJobList.appendChild(item);
+        });
+      } catch (err) {
+        historyJobList.innerHTML = `<div style="color: var(--rose); padding: 1rem;">Failed to load jobs: ${escapeHtml(err.message)}</div>`;
+      }
+    });
+
+    closeHistoryBtn.addEventListener('click', () => {
+      historyModal.style.display = 'none';
+    });
+
+    historyModal.addEventListener('click', (e) => {
+      if (e.target === historyModal) historyModal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>

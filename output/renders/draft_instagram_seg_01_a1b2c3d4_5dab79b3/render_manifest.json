@@ -1,0 +1,20 @@
+{
+  "asset_id": "draft_instagram_seg_01_a1b2c3d4_5dab79b3",
+  "platform": "instagram",
+  "content_format": "carousel",
+  "dimensions": "1080x1080",
+  "slide_count": 5,
+  "source_document": "workflow_guide.md",
+  "source_segment_id": "seg_01_a1b2c3d4",
+  "generation_mode": "OFFLINE_DETERMINISTIC",
+  "review_status": "DRAFT_PREVIEW_REQUIRES_HUMAN_REVIEW",
+  "output_files": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "carousel_contact_sheet.png"
+  ],
+  "rendered_at": "2026-10-30T13:31:27.209802+00:00"
+}

@@ -1,0 +1,402 @@
+{
+  "draft_linkedin_seg_01_54bd0501_db60c140": {
+    "asset_id": "draft_linkedin_seg_01_54bd0501_db60c140",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_01_54bd0501_f5a9f73e": {
+    "asset_id": "draft_shorts_seg_01_54bd0501_f5a9f73e",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_01_54bd0501_18645347": {
+    "asset_id": "draft_twitter_seg_01_54bd0501_18645347",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_01_54bd0501_266f979b": {
+    "asset_id": "draft_instagram_seg_01_54bd0501_266f979b",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_02_bbcbe22f_4d465f27": {
+    "asset_id": "draft_linkedin_seg_02_bbcbe22f_4d465f27",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_02_bbcbe22f_2614d3bd": {
+    "asset_id": "draft_shorts_seg_02_bbcbe22f_2614d3bd",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_02_bbcbe22f_7a3d6628": {
+    "asset_id": "draft_twitter_seg_02_bbcbe22f_7a3d6628",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_02_bbcbe22f_0d15fa47": {
+    "asset_id": "draft_instagram_seg_02_bbcbe22f_0d15fa47",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_03_52cc9466_c1def376": {
+    "asset_id": "draft_linkedin_seg_03_52cc9466_c1def376",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_03_52cc9466_edec28f3": {
+    "asset_id": "draft_shorts_seg_03_52cc9466_edec28f3",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_03_52cc9466_f99a1255": {
+    "asset_id": "draft_twitter_seg_03_52cc9466_f99a1255",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_03_52cc9466_d47cd859": {
+    "asset_id": "draft_instagram_seg_03_52cc9466_d47cd859",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_04_993f71a6_bf086a41": {
+    "asset_id": "draft_linkedin_seg_04_993f71a6_bf086a41",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_04_993f71a6_3f637c82": {
+    "asset_id": "draft_shorts_seg_04_993f71a6_3f637c82",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_04_993f71a6_85f34698": {
+    "asset_id": "draft_twitter_seg_04_993f71a6_85f34698",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_04_993f71a6_abe5ca83": {
+    "asset_id": "draft_instagram_seg_04_993f71a6_abe5ca83",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_05_96db654e_5817c8a8": {
+    "asset_id": "draft_linkedin_seg_05_96db654e_5817c8a8",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_05_96db654e_ccd5d88a": {
+    "asset_id": "draft_shorts_seg_05_96db654e_ccd5d88a",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_05_96db654e_4cd74d56": {
+    "asset_id": "draft_twitter_seg_05_96db654e_4cd74d56",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_05_96db654e_2a360fe4": {
+    "asset_id": "draft_instagram_seg_05_96db654e_2a360fe4",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_06_0a29d264_750c821e": {
+    "asset_id": "draft_linkedin_seg_06_0a29d264_750c821e",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_06_0a29d264_be3f8dc3": {
+    "asset_id": "draft_shorts_seg_06_0a29d264_be3f8dc3",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_06_0a29d264_d60304d5": {
+    "asset_id": "draft_twitter_seg_06_0a29d264_d60304d5",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_06_0a29d264_1378642e": {
+    "asset_id": "draft_instagram_seg_06_0a29d264_1378642e",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_07_7ee314bc_4e5d6c2e": {
+    "asset_id": "draft_linkedin_seg_07_7ee314bc_4e5d6c2e",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_07_7ee314bc_7701afdd": {
+    "asset_id": "draft_shorts_seg_07_7ee314bc_7701afdd",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_07_7ee314bc_debea308": {
+    "asset_id": "draft_twitter_seg_07_7ee314bc_debea308",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_07_7ee314bc_1ac43b1c": {
+    "asset_id": "draft_instagram_seg_07_7ee314bc_1ac43b1c",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_08_5b329a41_6e98a4a4": {
+    "asset_id": "draft_linkedin_seg_08_5b329a41_6e98a4a4",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_08_5b329a41_7dd39367": {
+    "asset_id": "draft_shorts_seg_08_5b329a41_7dd39367",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_08_5b329a41_383d426b": {
+    "asset_id": "draft_twitter_seg_08_5b329a41_383d426b",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_08_5b329a41_9709961c": {
+    "asset_id": "draft_instagram_seg_08_5b329a41_9709961c",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_09_27ed193e_7a0f29aa": {
+    "asset_id": "draft_linkedin_seg_09_27ed193e_7a0f29aa",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_09_27ed193e_2ca75c3f": {
+    "asset_id": "draft_shorts_seg_09_27ed193e_2ca75c3f",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_09_27ed193e_eb0441ad": {
+    "asset_id": "draft_twitter_seg_09_27ed193e_eb0441ad",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_09_27ed193e_734d0bef": {
+    "asset_id": "draft_instagram_seg_09_27ed193e_734d0bef",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_linkedin_seg_10_60466ec9_88ae52fd": {
+    "asset_id": "draft_linkedin_seg_10_60466ec9_88ae52fd",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_shorts_seg_10_60466ec9_32758aea": {
+    "asset_id": "draft_shorts_seg_10_60466ec9_32758aea",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_twitter_seg_10_60466ec9_dda49978": {
+    "asset_id": "draft_twitter_seg_10_60466ec9_dda49978",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  },
+  "draft_instagram_seg_10_60466ec9_49362894": {
+    "asset_id": "draft_instagram_seg_10_60466ec9_49362894",
+    "review_status": "APPROVED",
+    "reviewer_id": "Lead_Editorial_Reviewer",
+    "approval_timestamp": "2026-10-31T11:14:40.733263+00:00",
+    "reviewer_notes": "Verified against brand voice, platform constraints, and source document. Approved for publication queue.",
+    "is_ready_to_publish": true,
+    "claims_reviewed_confirmed": true,
+    "quality_gate_passed": true
+  }
+}
