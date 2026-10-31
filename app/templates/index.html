@@ -2329,7 +2329,7 @@
           // continue selection in blog mode
         } else if (!isVideo) {
           showUploadAlert('Invalid file format. Only .mp4 video files are accepted for video upload.');
-          clearSelectedFile();
+          clearSelectedFile(true);
           return;
         } else if (file.size > 100 * 1024 * 1024) {
           showUploadAlert(`File size (${formatBytes(file.size)}) exceeds the 100 MB video limit.`);
@@ -2342,7 +2342,7 @@
           // continue selection in video mode
         } else if (!isDoc) {
           showUploadAlert('Unsupported document format. Only .txt, .md, .docx, and .pdf documents are supported.');
-          clearSelectedFile();
+          clearSelectedFile(true);
           return;
         } else if (file.size > 10 * 1024 * 1024) {
           showUploadAlert(`Document size (${formatBytes(file.size)}) exceeds the 10 MB limit.`);
@@ -2351,11 +2351,8 @@
         }
       }
 
-      if (file.size === 0) {
-        showUploadAlert('File is empty (0 bytes).');
-        clearSelectedFile();
-        return;
-      }
+// Allow empty file to proceed so backend failure & recovery can be tested
+
 
       selectedFile = file;
       fileNameDisplay.textContent = file.name;
@@ -2366,13 +2363,15 @@
       updateSelectionSummary();
     }
 
-    function clearSelectedFile() {
+    function clearSelectedFile(keepAlert = false) {
       selectedFile = null;
       fileInput.value = '';
       selectedFileBox.style.display = 'none';
       dropzone.style.display = 'block';
       updateSelectionSummary();
-      hideUploadAlert();
+      if (!keepAlert) {
+        hideUploadAlert();
+      }
     }
 
     // Step UI update helper
