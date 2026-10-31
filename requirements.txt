@@ -8,10 +8,17 @@ pydantic>=2.10.0
 openpyxl>=3.1.0
 pandas>=2.2.0
 
+# Document & Blog Extraction (TXT, MD, DOCX, PDF)
+pypdf>=5.0.0
+python-docx>=1.1.0
+
 # Media Processing & Rendering (Local / Zero-Cost)
 pillow>=11.0.0
 imageio-ffmpeg>=0.5.0
 gTTS>=2.5.0
+
+# AI Repurposing (Google GenAI SDK)
+google-genai>=0.1.0
 
 # Web Framework & Server (Optional Dashboard)
 fastapi>=0.115.0
